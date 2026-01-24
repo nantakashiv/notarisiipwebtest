@@ -1,3 +1,4 @@
+import type { ReactNode } from "react";
 import NavShell from "../../components/layout/NavShell";
 import PageShell from "../../components/layout/PageShell";
 import { getMessages } from "../../lib/getMessages";
@@ -7,11 +8,16 @@ export default async function SiteLayout({
   children,
   params,
 }: {
-  children: React.ReactNode;
-  params: Promise<{ locale: "id" | "en" }>;
+  children: ReactNode;
+  params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
-  const messages = await getMessages(locale);
+
+  // ✅ keep locale safe: only "en" or "id"
+  const safeLocale: "en" | "id" = locale === "id" ? "id" : "en";
+
+  // ✅ load correct translation messages
+  const messages = await getMessages(safeLocale);
 
   return (
     <I18nProvider messages={messages}>

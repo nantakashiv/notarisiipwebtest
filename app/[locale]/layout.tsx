@@ -1,3 +1,4 @@
+import type { ReactNode } from "react";
 import { Playfair_Display, Inter, Libre_Baskerville } from "next/font/google";
 
 const serif = Playfair_Display({
@@ -26,17 +27,20 @@ export default async function LocaleLayout({
   children,
   params,
 }: {
-  children: React.ReactNode;
-  params: Promise<{ locale: "id" | "en" }>;
+  children: ReactNode;
+  params: Promise<{ locale: string }>;
 }) {
-  const { locale } = await params; // ✅ unwrap Promise
+  const { locale } = await params;
+
+  // ✅ keep it safe and strict inside
+  const safeLocale: "id" | "en" = locale === "id" ? "id" : "en";
 
   return (
-    <div
-      lang={locale}
+    <html
+      lang={safeLocale}
       className={`${serif.variable} ${sans.variable} ${baskerville.variable}`}
     >
-      {children}
-    </div>
+      <body>{children}</body>
+    </html>
   );
 }
