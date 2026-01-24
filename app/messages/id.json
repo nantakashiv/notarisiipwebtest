@@ -1,0 +1,463 @@
+{
+  "nav": {
+    "home": "Beranda",
+    "services": "Layanan",
+    "articles": "Artikel",
+    "about": "Tentang",
+    "gallery": "Galeri",
+    "book": "Buat Janji",
+    "languageLabel": "Bahasa / Language"
+  },
+  "hero": {
+    "tagOffice": "Kantor Notaris & PPAT",
+    "tagLocation": "Brebes, Jawa Tengah",
+    "tagSchedule": "Sen–Sab • Dengan Janji Temu",
+    "titleLine1": "Notaris & PPAT",
+    "titleLine2": "Iip Affadin, S.H., M.Kn",
+    "headline": "Layanan notaris dan PPAT resmi di Brebes dengan proses yang rapi, teliti, dan berkekuatan hukum.",
+    "desc": "Melayani pembuatan akta, perjanjian, urusan waris, serta dokumen korporasi dengan kerahasiaan tinggi dan kepatuhan hukum penuh.",
+    "ctaBook": "Buat Janji",
+    "ctaServices": "Lihat Layanan",
+    "note": "Buka Sen–Sab • Layanan tatap muka & jarak jauh",
+    "cardFast": "Proses cepat",
+    "cardSecure": "Aman & tersertifikasi",
+    "imageAlt": "Kepala Kantor Notaris"
+  },
+  "about": {
+    "introTitle": "Lebih dari Notaris. Mitra Hukum yang Dapat Anda Andalkan.",
+    "introDesc": "Kantor kami dipimpin langsung oleh Notaris & PPAT berizin yang meyakini setiap dokumen hukum memiliki tanggung jawab, kejelasan, dan dampak jangka panjang. Setiap layanan ditangani dengan ketelitian, kerahasiaan, dan akuntabilitas pribadi.",
+
+    "badge1Title": "Berizin & Terdaftar",
+    "badge1Desc": "Terdaftar dan tersertifikasi resmi sebagai Notaris & PPAT sesuai ketentuan yang berlaku.",
+
+    "badge2Title": "Rekam Jejak Terbukti",
+    "badge2Desc": "Dipercaya menangani ribuan dokumen hukum untuk kebutuhan personal maupun bisnis.",
+
+    "aboutTitle": "Tentang Notaris",
+    "aboutP1": "Nama Notaris, S.H. adalah Notaris & PPAT berizin dengan pengalaman luas dalam menangani transaksi properti, dokumen korporasi, urusan waris, serta perjanjian yang berkekuatan hukum.",
+    "aboutP2": "Pendekatannya teliti dan terstruktur memastikan klien memahami setiap dokumen sebelum penandatanganan. Komitmen ini membangun kepercayaan jangka panjang dari individu, keluarga, dan pelaku usaha.",
+    "aboutP3": "Alih-alih mengejar volume, kantor mengutamakan akurasi, kepatuhan hukum, serta penjelasan yang jelas untuk meminimalkan sengketa dan kesalahpahaman di kemudian hari.",
+
+    "ctaConsultation": "Jadwalkan Konsultasi",
+
+    "profileName": "Nama Notaris, S.H.",
+    "profileRole": "Notaris & PPAT Berizin",
+    "profileMeta": "Terdaftar & Tersertifikasi Negara",
+    "profileDesc": "Dikenal dengan ketelitian dan penjelasan hukum yang jelas, sehingga setiap klien memahami dokumennya sebelum menandatangani.",
+
+    "statYears": "10+ Tahun",
+    "statYearsLabel": "Pengalaman",
+    "statDocs": "1000+",
+    "statDocsLabel": "Dokumen Ditangani",
+
+    "cred1Title": "Etika Profesional",
+    "cred1Desc": "Setiap dokumen ditangani dengan integritas, netralitas, dan sesuai standar hukum.",
+    "cred2Title": "Komunikasi Jelas",
+    "cred2Desc": "Klien menerima penjelasan yang jelas sebelum menandatangani untuk mengurangi risiko hukum.",
+    "cred3Title": "Keahlian Terfokus",
+    "cred3Desc": "Akta, dokumen korporasi, urusan waris, dan perjanjian berkekuatan hukum.",
+    "cred4Title": "Dipercaya Klien",
+    "cred4Desc": "Hubungan jangka panjang yang dibangun atas profesionalisme, kerahasiaan, dan keandalan.",
+
+    "teamTitle": "Perwakilan Terpercaya",
+    "teamDesc": "Tim yang mendampingi proses Anda responsif, profesional, dan menjaga kerahasiaan.",
+
+    "rep1Name": "Hanif",
+    "rep1Role": "Pendamping Klien",
+    "rep2Name": "Anang",
+    "rep2Role": "Dukungan Dokumen",
+    "rep3Name": "Aiska",
+    "rep3Role": "Penjadwalan",
+
+    "repBadge": "Perwakilan Kantor",
+
+    "expectTag": "Yang Anda dapatkan",
+    "expectTitle": "Pendampingan Profesional dari Awal Hingga Selesai",
+    "expectDesc": "Perwakilan kami membantu Anda memahami setiap langkah dengan jelas mulai dari persiapan dokumen, penjadwalan, hingga penandatanganan akhir.",
+
+    "expectPoint1": "Komunikasi jelas dan profesional",
+    "expectPoint2": "Pemeriksaan dokumen sebelum tanda tangan",
+    "expectPoint3": "Kerahasiaan data klien terjaga",
+    "expectPoint4": "Bantuan penjadwalan cepat",
+
+    "helpTitle": "Butuh bantuan cepat?",
+    "helpDesc": "Buat janji dan tim kami akan membantu Anda segera.",
+
+    "repAlt1": "Perwakilan kantor notaris",
+    "repAlt2": "Perwakilan kantor notaris",
+    "repAlt3": "Perwakilan kantor notaris",
+    "profileAlt": "Foto notaris"
+  },
+  "certifications": {
+    "title": "Sertifikasi Resmi & Legalitas Hukum",
+    "desc": "Kualifikasi profesional yang diakui oleh pemerintah dan institusi hukum, memastikan legalitas, ketelitian, serta kepercayaan jangka panjang.",
+    "label": "Sertifikasi",
+    "established": "Ditetapkan",
+    "items": [
+      {
+        "title": "Notaris Terdaftar (Resmi)",
+        "authority": "Kementerian Hukum & HAM",
+        "year": "2014",
+        "image": "/certifications/notaris.jpg"
+      },
+      {
+        "title": "Pejabat Pembuat Akta Tanah (PPAT)",
+        "authority": "Badan Pertanahan Nasional",
+        "year": "2016",
+        "image": "/certifications/ppat.jpg"
+      },
+      {
+        "title": "Sertifikasi Hukum Korporasi & Bisnis",
+        "authority": "Ikatan Notaris Indonesia",
+        "year": "2019",
+        "image": "/images/cert-corporate.jpg"
+      },
+      {
+        "title": "Hukum Waris & Perencanaan Harta",
+        "authority": "Lembaga Profesional Hukum",
+        "year": "2021",
+        "image": "/images/cert-inheritance.jpg"
+      }
+    ]
+  },
+  "servicesPreview": {
+    "title": "Layanan Notaris",
+    "desc": "Layanan notaris yang menyeluruh untuk kebutuhan pribadi maupun bisnis.",
+    "more": "Lihat semua layanan →",
+    "items": {
+      "legalization": {
+        "title": "Legalisasi Dokumen",
+        "description": "Legalisasi resmi dan apostille (jika diperlukan) untuk dokumen internasional."
+      },
+      "contract": {
+        "title": "Notarisasi Perjanjian",
+        "description": "Pengesahan dan penyaksian perjanjian pribadi maupun bisnis."
+      },
+      "property": {
+        "title": "Akta & Dokumen Properti",
+        "description": "Verifikasi dan pengesahan dokumen peralihan hak atas tanah atau properti."
+      },
+      "poa": {
+        "title": "Surat Kuasa",
+        "description": "Pembuatan dan pengesahan surat kuasa untuk individu maupun perusahaan."
+      },
+      "affidavit": {
+        "title": "Pernyataan/Sumpah (Affidavit)",
+        "description": "Pembuatan pernyataan tertulis untuk kebutuhan proses hukum."
+      },
+      "copy": {
+        "title": "Salinan Sah (Certified Copy)",
+        "description": "Pengesahan salinan dokumen resmi sesuai ketentuan."
+      }
+    }
+  },
+  "ourClients": {
+    "title": "Klien Kami",
+    "desc": "Dipercaya oleh individu, pelaku usaha, dan institusi yang kami layani."
+  },
+  "testimonialsPreview": {
+    "tag": "TESTIMONIALS",
+    "title": "Ulasan dari Klien Kami",
+    "desc": "Testimoni dari klien yang telah menggunakan layanan kami"
+  },
+  "finalCta": {
+    "title": "Siap mengurus dokumen Anda?",
+    "desc": "Janji temu cepat, penanganan aman, dan pelayanan yang ramah.",
+    "ctaBook": "Buat Janji",
+    "ctaContact": "Hubungi Kami"
+  },
+  "currentEngagements": {
+    "title": "Keterlibatan Klien Saat Ini",
+    "desc": "Ringkasan klien korporasi yang saat ini sedang menggunakan layanan kenotariatan kami.",
+    "labels": {
+      "projects": "Proyek:",
+      "services": "Layanan:",
+      "location": "Lokasi:",
+      "plan": "Rencana:"
+    },
+    "status": {
+      "in_progress": "Sedang Berjalan",
+      "under_review": "Dalam Peninjauan",
+      "completed": "Selesai"
+    },
+    "footerNote": "* Informasi yang ditampilkan dibatasi untuk menjaga kerahasiaan klien."
+  },
+  "footer": {
+    "tagline": "Notaris Terpercaya • Brebes",
+    "servicesTitle": "Layanan",
+    "services": {
+      "legalization": "Legalisasi Dokumen",
+      "contract": "Notarisasi Perjanjian",
+      "property": "Akta Pertanahan"
+    },
+    "resourcesTitle": "Informasi",
+    "resources": {
+      "blog": "Artikel",
+      "faq": "FAQ",
+      "privacy": "Kebijakan Privasi"
+    },
+    "contactTitle": "Kontak",
+    "copyright": "Kantor Notaris. Hak cipta dilindungi."
+  },
+  "servicesPage": {
+    "headerTitle": "Layanan Notaris & PPAT",
+    "headerDesc": "Layanan profesional, teliti, dan sesuai ketentuan hukum untuk mendukung kebutuhan dokumen pribadi maupun bisnis Anda.",
+    "ctaTitle": "Butuh bantuan untuk dokumen Anda?",
+    "ctaDesc": "Buat janji temu dan tim kami akan membantu proses serta persyaratan yang tepat.",
+    "ctaButton": "Buat Janji Temu",
+
+    "badgeLabel": "Terverifikasi",
+    "helpsTitle": "Kami membantu Anda untuk",
+    "docsTitle": "Dokumen yang sering dibutuhkan",
+    "footerLeft": "Cepat • Aman • Rahasia",
+    "footerRight": "Detail →",
+
+    "items": {
+      "legalization": {
+        "title": "Legalisasi Dokumen",
+        "desc": "Kami membantu proses legalisasi dokumen agar dokumen Anda dapat diverifikasi dengan benar dan diakui secara resmi. Kantor kami akan memandu persyaratan, dokumen asli yang perlu dibawa, serta prosedur penandatanganan agar proses berjalan lancar.",
+        "helpsWith": [
+          "Verifikasi tanda tangan dan dokumen pendukung",
+          "Panduan persyaratan legalisasi dokumen",
+          "Pengecekan kelengkapan sebelum pengajuan"
+        ],
+        "commonDocs": [
+          "Surat pernyataan & surat pribadi",
+          "Dokumen perusahaan",
+          "Sertifikat & dokumen pendukung"
+        ],
+        "time": "Estimasi: 1–3 hari kerja"
+      },
+
+      "contract": {
+        "title": "Pembuatan / Pengesahan Perjanjian",
+        "desc": "Layanan notaris untuk perjanjian yang membutuhkan kejelasan isi, kepastian hukum, dan dokumentasi resmi. Kami memastikan para pihak memahami dokumen sebelum menandatangani.",
+        "helpsWith": [
+          "Pemeriksaan poin penting perjanjian sebelum tanda tangan",
+          "Pendampingan proses penandatanganan",
+          "Dokumentasi notaris sesuai prosedur"
+        ],
+        "commonDocs": [
+          "Perjanjian bisnis",
+          "Perjanjian pribadi",
+          "Kesepakatan kerja sama"
+        ],
+        "time": "Estimasi: selesai di hari yang sama (dengan janji)"
+      },
+
+      "property": {
+        "title": "Akta & Dokumen Pertanahan",
+        "desc": "Pendampingan dokumen pertanahan dan properti dengan proses yang teliti dan sesuai ketentuan. Kami membantu memastikan dokumen lengkap, benar, dan memenuhi persyaratan hukum.",
+        "helpsWith": [
+          "Panduan persyaratan dan proses pembuatan akta",
+          "Pengecekan dokumen kepemilikan dan pendukung",
+          "Koordinasi proses penandatanganan"
+        ],
+        "commonDocs": [
+          "Sertifikat tanah",
+          "Dokumen peralihan hak",
+          "Identitas dan dokumen pendukung"
+        ],
+        "time": "Estimasi: menyesuaikan kebutuhan"
+      },
+
+      "poa": {
+        "title": "Surat Kuasa (POA)",
+        "desc": "Pembuatan dan pengesahan surat kuasa untuk keperluan perwakilan, pemberian wewenang, dan pendelegasian hukum. Kami membantu agar ruang lingkup kuasa tertulis jelas dan aman.",
+        "helpsWith": [
+          "Pendampingan pembuatan dan penjelasan ruang lingkup kuasa",
+          "Verifikasi identitas pemberi kuasa",
+          "Proses tanda tangan dan pengesahan notaris"
+        ],
+        "commonDocs": [
+          "Surat kuasa perwakilan",
+          "Dokumen identitas",
+          "Kesepakatan terkait kuasa"
+        ],
+        "time": "Estimasi: selesai di hari yang sama (dengan janji)"
+      },
+
+      "affidavit": {
+        "title": "Affidavit / Surat Pernyataan Resmi",
+        "desc": "Pembuatan dan pengesahan affidavit atau surat pernyataan untuk kebutuhan hukum dan keperluan resmi. Kami membantu merapikan isi pernyataan agar jelas, tepat, dan sesuai prosedur.",
+        "helpsWith": [
+          "Pemeriksaan isi pernyataan dan kejelasan data",
+          "Pendampingan proses sumpah / pernyataan",
+          "Pengesahan notaris sesuai ketentuan"
+        ],
+        "commonDocs": [
+          "Surat pernyataan",
+          "Deklarasi resmi",
+          "Dokumen pendukung"
+        ],
+        "time": "Estimasi: selesai di hari yang sama (dengan janji)"
+      },
+
+      "copy": {
+        "title": "Salinan Dokumen Tersertifikasi",
+        "desc": "Pengesahan salinan dokumen agar sesuai dengan dokumen asli. Kami melakukan pemeriksaan dan pencocokan dokumen asli dengan salinan secara teliti sebelum memberikan sertifikasi.",
+        "helpsWith": [
+          "Pencocokan salinan dengan dokumen asli",
+          "Sertifikasi salinan sesuai prosedur",
+          "Pemberian cap dan tanda tangan resmi"
+        ],
+        "commonDocs": [
+          "KTP / dokumen identitas",
+          "Sertifikat",
+          "Surat resmi"
+        ],
+        "time": "Estimasi: selesai di hari yang sama"
+      }
+    }
+  }
+
+,
+  "aboutPage": {
+    "heroTitle1": "Tentang",
+    "heroTitle2": "Kantor Kami",
+    "heroDesc": "Dipercaya oleh profesional, perusahaan, dan keluarga di seluruh Indonesia.",
+
+    "section1Title": "Siapa Kami",
+    "section1P1": "Kami adalah kantor notaris dan konsultasi hukum profesional yang berkomitmen memberikan layanan notaris yang aman, transparan, dan terpercaya.",
+    "section1P2": "Dengan pengalaman menangani urusan pertanahan, korporasi, perdata, serta autentikasi dokumen, kami memastikan setiap dokumen sah secara hukum, sesuai ketentuan, dan diproses dengan kerahasiaan maksimal.",
+    "section1ImageAlt": "Kantor Notaris Kami",
+
+    "stat1Label": "Tahun Pengalaman",
+    "stat2Label": "Klien Dilayani",
+    "stat3Label": "Kepuasan Klien",
+
+    "valuesTitle": "Nilai Utama Kami",
+    "valuesDesc": "Kami menjunjung prinsip yang mencerminkan profesionalisme, integritas, dan keunggulan dalam setiap layanan yang kami berikan.",
+    "value1Title": "Integritas",
+    "value1Desc": "Memastikan setiap proses hukum dilakukan secara etis, transparan, dan sesuai regulasi resmi.",
+    "value2Title": "Ketelitian",
+    "value2Desc": "Kami memeriksa setiap detail dokumen untuk menjamin akurasi dan keabsahan hukum.",
+    "value3Title": "Kerahasiaan",
+    "value3Desc": "Privasi dan dokumen Anda kami lindungi dengan standar keamanan tertinggi.",
+
+    "missionTitle": "Misi Kami",
+    "missionDesc": "Misi kami adalah memberikan layanan notaris yang terpercaya, profesional, dan efisien membantu individu, keluarga, serta pelaku usaha mengambil keputusan yang aman dan terlindungi secara hukum.",
+
+    "ctaTitle": "Butuh Bantuan Hukum Profesional?",
+    "ctaDesc": "Tim kami siap membantu autentikasi dokumen, perjanjian, urusan pertanahan, dan kebutuhan lainnya.",
+    "ctaButton": "Buat Janji"
+  },
+  "gallery": {
+    "title": "Galeri Kantor",
+    "desc": "Sekilas suasana kantor notaris kami, fasilitas, serta lingkungan kerja yang nyaman untuk melayani klien secara profesional.",
+    "captionTop": "Galeri",
+    "captionBottom": "Momen Kantor",
+    "ctaTitle": "Kunjungi Kantor Kami",
+    "ctaDesc": "Jadwalkan pertemuan atau datang saat jam operasional kami.",
+    "ctaButton": "Hubungi Kami",
+    "itemAlt": "Item galeri"
+  },
+  
+  "articlesPreview": {
+    "headerTitle": "Wawasan & Publikasi",
+    "headerDesc": "Wawasan hukum edukatif dan pilihan publikasi akademik.",
+    "legalInsightsTitle": "Wawasan Hukum",
+    "publicationsTitle": "Publikasi",
+    "readMore": "Baca selengkapnya →",
+    "viewPublication": "Lihat publikasi →",
+    "viewAll": "Lihat semua wawasan & publikasi →"
+  },
+
+  "articlesPage": {
+    "topTag": "Artikel & Wawasan",
+    "title": "Pengetahuan Hukum & Panduan Profesional",
+    "desc": "Tetap terinformasi melalui artikel pilihan seputar hukum, dokumen, kontrak, dan prosedur kenotariatan.",
+
+    "insightsTitle": "Wawasan Hukum",
+    "insightsDesc": "Artikel edukatif ini disediakan untuk tujuan informasi umum dan bukan merupakan nasihat hukum.",
+
+    "publicationsTitle": "Publikasi",
+    "publicationsDesc": "Artikel akademik yang dipublikasikan pada jurnal hukum yang diakui. Konten lengkap dapat diakses melalui penerbit.",
+
+    "footerTitle": "Kami Membuat Pengetahuan Hukum Lebih Mudah Dipahami",
+    "footerDesc": "Artikel kami ditulis oleh profesional dengan pengalaman bertahun-tahun dalam bidang notaris, hukum korporasi, dan dokumentasi hukum."
+  },
+
+  "articleDetail": {
+    "back": "Kembali ke Artikel",
+    "badgeInsight": "Wawasan Hukum",
+    "badgeVerified": "Terverifikasi",
+    "ctaTitle": "Butuh bantuan dokumen notaris?",
+    "ctaDesc": "Jika Anda memerlukan panduan untuk notarialisasi, legalisasi, atau persiapan dokumen, kantor kami siap membantu dengan persyaratan dan alur yang tepat.",
+    "ctaBook": "Buat Janji",
+    "ctaContact": "Hubungi Kami",
+    "summaryTitle": "Ringkasan Artikel",
+    "summary1": "Ditulis untuk edukasi publik",
+    "summary2": "Bukan pengganti nasihat hukum",
+    "summary3": "Disusun dengan jelas dan sesuai ketentuan",
+    "relatedTitle": "Artikel Terkait",
+    "disclaimerTitle": "Pernyataan Penyangkalan",
+    "disclaimerDesc": "Artikel ini disediakan untuk tujuan informasi umum dan tidak merupakan nasihat hukum."
+  },
+
+  "legalInsights": {
+    "poa-guide": {
+      "title": "Memahami Surat Kuasa: Panduan Hukum Lengkap",
+      "desc": "Hal-hal penting yang perlu Anda ketahui tentang pembuatan, validasi, dan proses notaris untuk Surat Kuasa."
+    },
+    "property-notary": {
+      "title": "Persyaratan Notaris untuk Transaksi Properti",
+      "desc": "Rangkuman dokumen penting untuk proses balik nama, sertifikasi kepemilikan, dan verifikasi tanah."
+    },
+    "business-contracts": {
+      "title": "Cara Memastikan Kontrak Bisnis Anda Sah Secara Hukum",
+      "desc": "Pelajari prinsip dasar menyusun kontrak yang kuat, jelas, dan dapat diberlakukan secara hukum."
+    },
+    "document-auth": {
+      "title": "Autentikasi Dokumen: Mengapa Ini Lebih Penting dari yang Anda Kira",
+      "desc": "Pahami pentingnya autentikasi untuk kebutuhan profesional, akademik, dan dokumen internasional."
+    }
+  },
+
+  "publications": {
+    "apostille-law": {
+      "title": "Peran Apostille dalam Hukum Perdata Indonesia",
+      "desc": "Pembahasan akademik mengenai peran dan implikasi hukum apostille dalam sistem perdata Indonesia."
+    },
+    "corp-docs": {
+      "title": "Autentikasi Hukum untuk Dokumen Korporasi",
+      "desc": "Analisis ilmiah tentang praktik autentikasi dokumen dalam proses hukum perusahaan."
+    }
+  },
+  "appointment": {
+    "title": "Buat Janji Temu",
+    "desc": "Silakan isi formulir di bawah ini dan kantor notaris kami akan segera menghubungi Anda untuk mengonfirmasi janji temu.",
+
+    "fullName": "Nama Lengkap",
+    "fullNamePh": "Nama Anda",
+
+    "email": "Email",
+
+    "phone": "Nomor Telepon",
+    "phonePh": "0812-xxxx-xxxx",
+
+    "date": "Tanggal yang Diinginkan",
+    "time": "Waktu yang Diinginkan",
+
+    "serviceType": "Jenis Layanan",
+    "serviceSelect": "Pilih layanan",
+    "services": {
+      "notaryDeed": "Akta Notaris",
+      "legalization": "Legalisasi",
+      "consultation": "Konsultasi",
+      "contractDrafting": "Pembuatan Kontrak",
+      "other": "Lainnya"
+    },
+
+    "helper": "Silakan pilih layanan yang Anda butuhkan. Kami akan mengonfirmasi detail melalui WhatsApp atau email.",
+
+    "notes": "Catatan Tambahan (opsional)",
+    "notesPh": "Tambahkan detail jika diperlukan...",
+
+    "submit": "Kirim Permintaan Janji Temu",
+
+    "needHelp": "Butuh bantuan?",
+    "contactPrefix": "Hubungi kami di ",
+    "contactMiddle": " atau email "
+  }
+}

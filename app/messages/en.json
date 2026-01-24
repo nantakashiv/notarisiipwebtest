@@ -1,0 +1,463 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "articles": "Articles",
+    "about": "About Us",
+    "gallery": "Gallery",
+    "book": "Book Appointment",
+    "languageLabel": "Bahasa / Language"
+  },
+  "hero": {
+    "tagOffice": "Notary & PPAT Office",
+    "tagLocation": "Brebes, Central Java",
+    "tagSchedule": "Mon–Sat • By Appointment",
+    "titleLine1": "Notary & PPAT",
+    "titleLine2": "Iip Affadin, S.H., M.Kn",
+    "headline": "Official notarial and land deed services in Brebes delivered with discretion, precision, and legal certainty.",
+    "desc": "Services for deeds, agreements, inheritance matters, and corporate documentation handled professionally with confidentiality and full legal compliance.",
+    "ctaBook": "Book an Appointment",
+    "ctaServices": "View Services",
+    "note": "Open Mon–Sat • In-person & remote notarization",
+    "cardFast": "Fast turnaround",
+    "cardSecure": "Secure & certified",
+    "imageAlt": "Notary Office Head"
+  },
+  "about": {
+    "introTitle": "More Than a Notary. A Legal Partner You Can Rely On.",
+    "introDesc": "Our office is led directly by a licensed Notary & PPAT who believes every legal document carries responsibility, clarity, and long-term impact. Each service is handled with precision, confidentiality, and personal accountability.",
+
+    "badge1Title": "Licensed & Registered",
+    "badge1Desc": "Officially registered and certified as a Notary & PPAT in accordance with applicable regulations.",
+
+    "badge2Title": "Proven Track Record",
+    "badge2Desc": "Trusted with thousands of legal documents for individuals, families, and business entities.",
+
+    "aboutTitle": "About the Notary",
+    "aboutP1": "Nama Notaris, S.H. is a licensed Notary & PPAT with extensive experience handling property transactions, corporate documents, inheritance matters, and legally binding agreements.",
+    "aboutP2": "His approach is careful and structured ensuring clients fully understand each document before signing. This commitment has built long-term trust with individuals, families, and business entities.",
+    "aboutP3": "Rather than prioritizing volume, the office focuses on accuracy, compliance, and clear explanations to reduce future disputes and misunderstandings.",
+
+    "ctaConsultation": "Schedule a Consultation",
+
+    "profileName": "Nama Notaris, S.H.",
+    "profileRole": "Licensed Notary & PPAT",
+    "profileMeta": "Registered & Certified by the State",
+    "profileDesc": "Known for a meticulous approach and clear legal explanations, ensuring every client understands their documents before signing.",
+
+    "statYears": "10+ Years",
+    "statYearsLabel": "Experience",
+    "statDocs": "1000+",
+    "statDocsLabel": "Documents Handled",
+
+    "cred1Title": "Professional Ethics",
+    "cred1Desc": "Every document is handled with integrity, neutrality, and full compliance with legal standards.",
+    "cred2Title": "Clear Communication",
+    "cred2Desc": "Clients receive clear explanations before signing, helping reduce future legal risks.",
+    "cred3Title": "Focused Expertise",
+    "cred3Desc": "Deeds, corporate documentation, inheritance matters, and legally binding agreements.",
+    "cred4Title": "Trusted by Clients",
+    "cred4Desc": "Long-term relationships built on reliability, discretion, and professionalism.",
+
+    "teamTitle": "Trusted Representatives",
+    "teamDesc": "A dedicated team supporting your process responsive, professional, and confidential.",
+
+    "rep1Name": "Hanif",
+    "rep1Role": "Client Handling",
+    "rep2Name": "Anang",
+    "rep2Role": "Document Support",
+    "rep3Name": "Aiska",
+    "rep3Role": "Scheduling",
+
+    "repBadge": "Office Representative",
+
+    "expectTag": "What to expect",
+    "expectTitle": "Professional Guidance, From Start to Finish",
+    "expectDesc": "Our representatives help you understand every step clearly from document preparation, appointment scheduling, to final signing.",
+
+    "expectPoint1": "Clear and professional communication",
+    "expectPoint2": "Document review before signing",
+    "expectPoint3": "Confidential handling of client data",
+    "expectPoint4": "Fast scheduling assistance",
+
+    "helpTitle": "Need assistance quickly?",
+    "helpDesc": "Book an appointment and our team will guide you right away.",
+
+    "repAlt1": "Notary office representative",
+    "repAlt2": "Notary office representative",
+    "repAlt3": "Notary office representative",
+    "profileAlt": "Notary portrait"
+  },
+  "certifications": {
+    "title": "Official Certifications & Legal Authority",
+    "desc": "Professional qualifications recognized by the government and legal institutions, ensuring legitimacy, precision, and long-term trust.",
+    "label": "Certification",
+    "established": "Established",
+    "items": [
+      {
+        "title": "Licensed Public Notary",
+        "authority": "Ministry of Law & Human Rights",
+        "year": "2014",
+        "image": "/certifications/notaris.jpg"
+      },
+      {
+        "title": "Land Deed Official (PPAT)",
+        "authority": "National Land Agency",
+        "year": "2016",
+        "image": "/certifications/ppat.jpg"
+      },
+      {
+        "title": "Corporate & Business Law Certification",
+        "authority": "Indonesian Notary Association",
+        "year": "2019",
+        "image": "/images/cert-corporate.jpg"
+      },
+      {
+        "title": "Inheritance & Estate Law",
+        "authority": "Professional Legal Institute",
+        "year": "2021",
+        "image": "/images/cert-inheritance.jpg"
+      }
+    ]
+  },
+  "servicesPreview": {
+    "title": "Our Notary Services",
+    "desc": "Comprehensive notarial services tailored for individuals and businesses.",
+    "more": "Learn more services →",
+    "items": {
+      "legalization": {
+        "title": "Document Legalization",
+        "description": "Official legalization and apostille where applicable for international documents."
+      },
+      "contract": {
+        "title": "Contract Notarization",
+        "description": "Witnessing and notarizing private and business contracts."
+      },
+      "property": {
+        "title": "Property Deeds",
+        "description": "Verification and notarization for land or property transfer documents."
+      },
+      "poa": {
+        "title": "Power of Attorney",
+        "description": "Drafting and notarizing POAs for individuals and corporations."
+      },
+      "affidavit": {
+        "title": "Affidavits",
+        "description": "Sworn statements and affidavits for legal procedures."
+      },
+      "copy": {
+        "title": "Certified Copies",
+        "description": "Certified true copies of official documents."
+      }
+    }
+  },
+  "ourClients": {
+    "title": "Our Clients",
+    "desc": "Trusted by individuals, businesses, and institutions we serve."
+  },
+  "testimonialsPreview": {
+    "tag": "TESTIMONIALS",
+    "title": "Reviews from our clients",
+    "desc": "Testimonials from our clients around the globe"
+  },
+  "finalCta": {
+    "title": "Ready to notarize your document?",
+    "desc": "Fast appointments, secure handling, and friendly service.",
+    "ctaBook": "Book Appointment",
+    "ctaContact": "Contact Us"
+  },
+  "currentEngagements": {
+    "title": "Current Client Engagements",
+    "desc": "An overview of corporate clients currently engaging our notarial services.",
+    "labels": {
+      "projects": "Projects:",
+      "services": "Services:",
+      "location": "Location:",
+      "plan": "Plan:"
+    },
+    "status": {
+      "in_progress": "In Progress",
+      "under_review": "Under Review",
+      "completed": "Completed"
+    },
+    "footerNote": "* Displayed information is limited to protect client confidentiality."
+  },
+  "footer": {
+    "tagline": "Trusted Notary • Brebes",
+    "servicesTitle": "Services",
+    "services": {
+      "legalization": "Document Legalization",
+      "contract": "Contract Notarization",
+      "property": "Property Deeds"
+    },
+    "resourcesTitle": "Resources",
+    "resources": {
+      "blog": "Blog",
+      "faq": "FAQ",
+      "privacy": "Privacy Policy"
+    },
+    "contactTitle": "Contact",
+    "copyright": "Notary Office. All rights reserved."
+  },
+  "servicesPage": {
+    "headerTitle": "Notary & PPAT Services",
+    "headerDesc": "Professional, precise, and legally compliant services to support your personal and business documentation needs.",
+    "ctaTitle": "Need help with your documents?",
+    "ctaDesc": "Book an appointment and our team will assist you with the correct process and requirements.",
+    "ctaButton": "Book Appointment",
+
+    "badgeLabel": "Verified",
+    "helpsTitle": "What we help with",
+    "docsTitle": "Common documents",
+    "footerLeft": "Fast • Secure • Confidential",
+    "footerRight": "Details →",
+
+    "items": {
+      "legalization": {
+        "title": "Document Legalization",
+        "desc": "We assist clients with document legalization to ensure your documents are properly verified and formally recognized. Our office will guide you through the correct process, required originals, and signing procedures to help avoid delays.",
+        "helpsWith": [
+          "Verification of signatures and supporting documents",
+          "Guidance on legalization requirements",
+          "Document readiness review before submission"
+        ],
+        "commonDocs": [
+          "Personal statements & letters",
+          "Company documents",
+          "Certificates & supporting files"
+        ],
+        "time": "Estimated: 1–3 working days"
+      },
+
+      "contract": {
+        "title": "Contract Notarization",
+        "desc": "Professional notarization and witnessing for agreements that require clarity, legal certainty, and formal documentation. We ensure both parties understand the document before signing.",
+        "helpsWith": [
+          "Review of agreement details before signing",
+          "Witnessing and signing coordination",
+          "Notarial documentation and verification"
+        ],
+        "commonDocs": [
+          "Business agreements",
+          "Personal contracts",
+          "Cooperation letters"
+        ],
+        "time": "Estimated: same day (by appointment)"
+      },
+
+      "property": {
+        "title": "Property Deeds",
+        "desc": "Support for land and property documentation handled with precision and compliance. We assist clients to ensure documents are complete, correct, and aligned with legal requirements.",
+        "helpsWith": [
+          "Deed preparation guidance and requirements",
+          "Ownership and supporting document checks",
+          "Signing coordination and official validation"
+        ],
+        "commonDocs": [
+          "Land certificates",
+          "Transfer documents",
+          "Supporting identity documents"
+        ],
+        "time": "Estimated: based on requirements"
+      },
+
+      "poa": {
+        "title": "Power of Attorney (POA)",
+        "desc": "Drafting and notarizing power of attorney documents for representation, authorization, and legal delegation. We help ensure the scope and responsibility are clearly stated.",
+        "helpsWith": [
+          "Drafting support and scope clarification",
+          "Identity verification of the authorizing party",
+          "Notarial signing process and legalization"
+        ],
+        "commonDocs": [
+          "Authorization letters",
+          "Personal data documents",
+          "Representation agreements"
+        ],
+        "time": "Estimated: same day (by appointment)"
+      },
+
+      "affidavit": {
+        "title": "Affidavits",
+        "desc": "Affidavit preparation and notarization for sworn statements used for legal matters and official purposes. We guide the wording to ensure clarity and correctness.",
+        "helpsWith": [
+          "Statement verification and accuracy check",
+          "Sworn signing process with legal guidance",
+          "Notarial endorsement and formal validation"
+        ],
+        "commonDocs": [
+          "Sworn statements",
+          "Formal declarations",
+          "Supporting documentation"
+        ],
+        "time": "Estimated: same day (by appointment)"
+      },
+
+      "copy": {
+        "title": "Certified Copies",
+        "desc": "Certification of true copies for official documents. We compare the original document with the copy carefully before providing official certification.",
+        "helpsWith": [
+          "Comparison with original documents",
+          "Copy certification and verification",
+          "Official stamp and signature"
+        ],
+        "commonDocs": [
+          "Identity documents",
+          "Certificates",
+          "Official letters"
+        ],
+        "time": "Estimated: same day"
+      }
+    }
+  }
+
+,
+  "aboutPage": {
+    "heroTitle1": "About",
+    "heroTitle2": "Our Office",
+    "heroDesc": "Trusted by professionals, corporations, and families across Indonesia.",
+
+    "section1Title": "Who We Are",
+    "section1P1": "We are a professional notary and legal consulting office dedicated to providing secure, transparent, and trusted notarial services.",
+    "section1P2": "With years of experience handling property, corporate, civil, and authentication matters, we ensure that every document is legally valid, compliant, and processed with the utmost confidentiality.",
+    "section1ImageAlt": "Our Notary Office",
+
+    "stat1Label": "Years of Experience",
+    "stat2Label": "Clients Served",
+    "stat3Label": "Client Satisfaction",
+
+    "valuesTitle": "Our Core Values",
+    "valuesDesc": "We uphold principles that reflect professionalism, integrity, and excellence in every service we provide.",
+    "value1Title": "Integrity",
+    "value1Desc": "Ensuring all legal processes are conducted ethically, transparently, and according to official regulations.",
+    "value2Title": "Precision",
+    "value2Desc": "We verify every detail of your documents to guarantee accuracy and legal validity.",
+    "value3Title": "Confidentiality",
+    "value3Desc": "Your privacy and documents are protected with the highest level of security.",
+
+    "missionTitle": "Our Mission",
+    "missionDesc": "Our mission is to provide trusted, professional, and efficient notarial services that empower individuals, families, and businesses to make secure and legally protected decisions.",
+
+    "ctaTitle": "Need Professional Legal Assistance?",
+    "ctaDesc": "Our team is ready to help you with document authentication, contracts, property matters, and more.",
+    "ctaButton": "Book an Appointment"
+  },
+  "gallery": {
+    "title": "Office Gallery",
+    "desc": "A glimpse inside our notary office, facilities, and environment where we assist clients with professionalism and comfort.",
+    "captionTop": "Gallery",
+    "captionBottom": "Office Moment",
+    "ctaTitle": "Visit Our Office",
+    "ctaDesc": "Schedule a meeting or drop by during our working hours.",
+    "ctaButton": "Contact Us",
+    "itemAlt": "Gallery item"
+  },
+
+  "articlesPreview": {
+    "headerTitle": "Insights & Publications",
+    "headerDesc": "Educational legal insights and selected academic publications.",
+    "legalInsightsTitle": "Legal Insights",
+    "publicationsTitle": "Publications",
+    "readMore": "Read more →",
+    "viewPublication": "View publication →",
+    "viewAll": "View all insights & publications →"
+  },
+
+  "articlesPage": {
+    "topTag": "Articles & Insights",
+    "title": "Legal Knowledge & Professional Guidance",
+    "desc": "Stay informed with curated articles about law, documentation, contracts, and notarial procedures.",
+
+    "insightsTitle": "Legal Insights",
+    "insightsDesc": "Educational articles provided for general informational purposes only and do not constitute legal advice.",
+
+    "publicationsTitle": "Publications",
+    "publicationsDesc": "Academic articles published in recognized legal journals. Full content is accessible via the publisher.",
+
+    "footerTitle": "We Make Legal Knowledge Easier to Understand",
+    "footerDesc": "Our articles are written by professionals with years of experience in notary, corporate law, and legal documentation."
+  },
+
+  "articleDetail": {
+    "back": "Back to Articles",
+    "badgeInsight": "Legal Insight",
+    "badgeVerified": "Verified",
+    "ctaTitle": "Need help with notary documents?",
+    "ctaDesc": "If you need guidance for notarization, legalization, or document preparation, our office can assist you with the correct requirements and process.",
+    "ctaBook": "Book Appointment",
+    "ctaContact": "Contact Us",
+    "summaryTitle": "Article Summary",
+    "summary1": "Written for public education",
+    "summary2": "Not a substitute for legal advice",
+    "summary3": "Prepared with clarity and compliance",
+    "relatedTitle": "Related Articles",
+    "disclaimerTitle": "Disclaimer",
+    "disclaimerDesc": "This article is provided for general informational purposes only and does not constitute legal advice."
+  },
+
+  "legalInsights": {
+    "poa-guide": {
+      "title": "Understanding Power of Attorney: Complete Legal Guide",
+      "desc": "Everything you need to know about drafting, validating, and notarizing Power of Attorney documents."
+    },
+    "property-notary": {
+      "title": "Essential Notary Requirements for Property Transactions",
+      "desc": "A breakdown of required legal documents for property transfers, ownership certification, and land verification."
+    },
+    "business-contracts": {
+      "title": "How to Legally Validate Your Business Contracts",
+      "desc": "Learn the principles of creating strong, enforceable contracts for your company or organization."
+    },
+    "document-auth": {
+      "title": "Document Authentication: Why It Matters More Than You Think",
+      "desc": "Explore the importance of authentication in professional, academic, and international documentation."
+    }
+  },
+
+  "publications": {
+    "apostille-law": {
+      "title": "The Role of Apostille in Indonesian Civil Law",
+      "desc": "An academic discussion on the role and legal implications of apostille within Indonesian civil law."
+    },
+    "corp-docs": {
+      "title": "Legal Authentication of Corporate Documents",
+      "desc": "A scholarly analysis of document authentication practices in corporate legal processes."
+    }
+  },
+  "appointment": {
+    "title": "Book an Appointment",
+    "desc": "Fill in the form below and our notary office will contact you shortly to confirm your appointment.",
+
+    "fullName": "Full Name",
+    "fullNamePh": "Your name",
+
+    "email": "Email",
+
+    "phone": "Phone Number",
+    "phonePh": "0812-xxxx-xxxx",
+
+    "date": "Preferred Date",
+    "time": "Preferred Time",
+
+    "serviceType": "Type of Service",
+    "serviceSelect": "Select a service",
+    "services": {
+      "notaryDeed": "Notary Deed",
+      "legalization": "Legalization",
+      "consultation": "Consultation",
+      "contractDrafting": "Contract Drafting",
+      "other": "Other"
+    },
+
+    "helper": "Please choose the service you need. We’ll confirm details via WhatsApp or email.",
+
+    "notes": "Additional Notes (optional)",
+    "notesPh": "Add details if needed...",
+
+    "submit": "Submit Appointment Request",
+
+    "needHelp": "Need help?",
+    "contactPrefix": "Call us at ",
+    "contactMiddle": " or email "
+  }
+}
