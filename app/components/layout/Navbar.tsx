@@ -126,7 +126,7 @@ export default function Navbar() {
             className="flex items-center gap-3 lg:min-w-[320px]"
           >
             <Image
-              src="/images/logo1.png"
+              src="/images/logo.png"
               alt="Notary Office"
               width={36}
               height={36}
@@ -140,7 +140,11 @@ export default function Navbar() {
                 whitespace-nowrap
               "
             >
-              NOTARIS IIP AFFADIN, S.H., M.Kn
+              {/* ✅ Mobile (smallest) */}
+              <span className="inline sm:hidden">NOTARIS IIP AFFADIN</span>
+
+              {/* ✅ Tablet/Desktop */}
+              <span className="hidden sm:inline">NOTARIS IIP AFFADIN, S.H., M.Kn</span>
             </span>
           </Link>
 

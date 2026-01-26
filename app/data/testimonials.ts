@@ -19,18 +19,18 @@ export function getTestimonials(locale: Locale): Testimonial[] {
 
   return [
     {
-      name: "Sarah Jonas",
-      role: t("Product Designer", "Desainer Produk"),
+      name: "Budi Santoso",
+      role: t("Product Designer", "Klien Notaris"),
       text: t(
         "Empower your product team to make better decisions and drive innovation with advanced analytics platforms.",
-        "Membantu tim bekerja lebih efektif melalui proses yang lebih rapi, cepat, dan terstruktur."
+        "Pelayanan sangat ramah dan cepat. Semua dokumen dijelaskan dengan jelas, jadi saya merasa lebih tenang."
       ),
       date: t("Jan 17, 2024", "17 Jan 2024"),
       time: "9:00 AM",
-      avatar: "/avatars/a.jpg",
+      avatar: "/avatars/.jpg",
     },
     {
-      name: "Michael Lee",
+      name: "Andi Pratama",
       role: t("Law Consultant", "Konsultan Hukum"),
       text: t(
         "A reliable tool that improves our workflow and supports complex legal documentation processes.",
@@ -38,10 +38,10 @@ export function getTestimonials(locale: Locale): Testimonial[] {
       ),
       date: t("Apr 12, 2024", "12 Apr 2024"),
       time: "3:45 PM",
-      avatar: "/avatars/b.jpg",
+      avatar: "/avatars/.jpg",
     },
     {
-      name: "Emily Clarke",
+      name: "Dewi Lestari",
       role: t("Senior Advisor", "Penasihat Senior"),
       text: t(
         "Easy to use, beautifully designed, and extremely helpful for our daily operations.",
@@ -49,10 +49,10 @@ export function getTestimonials(locale: Locale): Testimonial[] {
       ),
       date: t("Aug 5, 2024", "5 Agu 2024"),
       time: "1:20 PM",
-      avatar: "/avatars/c.jpg",
+      avatar: "/avatars/.jpg",
     },
     {
-      name: "Daniel Scott",
+      name: "Siti Aisyah",
       role: t("Notarial Client", "Klien Notaris"),
       text: t(
         "Professional, accurate, and efficient. It saves us hours every week.",
@@ -60,7 +60,7 @@ export function getTestimonials(locale: Locale): Testimonial[] {
       ),
       date: t("Dec 2, 2024", "2 Des 2024"),
       time: "10:30 AM",
-      avatar: "/avatars/d.jpg",
+      avatar: "/avatars/.jpg",
     },
   ];
 }

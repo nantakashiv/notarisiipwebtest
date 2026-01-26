@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { useMessages } from "../shared/I18nProvider"; // ✅ adjust path if needed
+import Image from "next/image";
 
 export default function Footer() {
   const year = new Date().getFullYear();
@@ -11,8 +12,15 @@ export default function Footer() {
     <footer className="mt-12 bg-gray-900 text-gray-200">
       <div className="max-w-7xl mx-auto px-6 lg:px-8 py-12 grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
         <div>
-          <div className="w-16 h-16 bg-gray-800 rounded-full flex items-center justify-center">
-            LOGO
+          <div className="w-16 h-16 flex items-center justify-center">
+            <Image
+              src="/images/logo.png"  // put your png inside /public/logo.png
+              alt="Logo"
+              width={64}
+              height={64}
+              className="object-contain"
+              priority
+            />
           </div>
           <p className="text-sm mt-3">{m.footer.tagline}</p>
         </div>

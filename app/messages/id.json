@@ -12,16 +12,32 @@
     "tagOffice": "Kantor Notaris & PPAT",
     "tagLocation": "Brebes, Jawa Tengah",
     "tagSchedule": "Sen–Sab • Dengan Janji Temu",
+
     "titleLine1": "Notaris & PPAT",
     "titleLine2": "Iip Affadin, S.H., M.Kn",
+
     "headline": "Layanan notaris dan PPAT resmi di Brebes dengan proses yang rapi, teliti, dan berkekuatan hukum.",
-    "desc": "Melayani pembuatan akta, perjanjian, urusan waris, serta dokumen korporasi dengan kerahasiaan tinggi dan kepatuhan hukum penuh.",
+    "desc": "Kami melayani pembuatan akta, perjanjian, urusan waris, hingga dokumen korporasi secara profesional dan teliti. Setiap tahap dijelaskan dengan bahasa yang mudah dipahami, kerahasiaan tetap terjaga, dan seluruh proses mengikuti standar hukum yang berlaku.",
+
     "ctaBook": "Buat Janji",
     "ctaServices": "Lihat Layanan",
     "note": "Buka Sen–Sab • Layanan tatap muka & jarak jauh",
+
+    "verifiedTag": "Kantor Hukum Terverifikasi",
+    "verifiedTitle": "Layanan Notaris & PPAT",
+    "verifiedDesc": "Dokumen korporasi, perjanjian, urusan waris, hingga akta autentik ditangani secara rapi dan profesional. Kami memastikan dokumen diproses sesuai prosedur, aman, dan dijaga kerahasiaannya dari awal sampai selesai.",
+    "badgeTrusted": "Terpercaya",
+
+    "point1": "Sistem layanan berbasis janji temu",
+    "point2": "Kerahasiaan terjaga",
+
     "cardFast": "Proses cepat",
+    "cardFastDesc": "Pemrosesan efisien dengan alur layanan berbasis janji temu.",
+
     "cardSecure": "Aman & tersertifikasi",
-    "imageAlt": "Kepala Kantor Notaris"
+    "cardSecureDesc": "Penanganan rahasia dengan standar dokumentasi terverifikasi.",
+
+    "imageAlt": "Pimpinan Kantor Notaris"
   },
   "about": {
     "introTitle": "Lebih dari Notaris. Mitra Hukum yang Dapat Anda Andalkan.",
@@ -62,12 +78,14 @@
     "teamTitle": "Perwakilan Terpercaya",
     "teamDesc": "Tim yang mendampingi proses Anda responsif, profesional, dan menjaga kerahasiaan.",
 
-    "rep1Name": "Hanif",
+    "rep1Name": "Imam Abu Hanifah",
     "rep1Role": "Pendamping Klien",
-    "rep2Name": "Anang",
+    "rep2Name": "Anang Surahmanto",
     "rep2Role": "Dukungan Dokumen",
-    "rep3Name": "Aiska",
+    "rep3Name": "Aiska Dina Safitri",
     "rep3Role": "Penjadwalan",
+    "rep4Name": "Eva Muzdalifah",
+    "rep4Role": "Customer Support",
 
     "repBadge": "Perwakilan Kantor",
 
@@ -86,6 +104,7 @@
     "repAlt1": "Perwakilan kantor notaris",
     "repAlt2": "Perwakilan kantor notaris",
     "repAlt3": "Perwakilan kantor notaris",
+    "repAlt4": "Notary office representative",
     "profileAlt": "Foto notaris"
   },
   "certifications": {
@@ -343,14 +362,24 @@
     "ctaButton": "Buat Janji"
   },
   "gallery": {
-    "title": "Galeri Kantor",
-    "desc": "Sekilas suasana kantor notaris kami, fasilitas, serta lingkungan kerja yang nyaman untuk melayani klien secara profesional.",
-    "captionTop": "Galeri",
-    "captionBottom": "Momen Kantor",
-    "ctaTitle": "Kunjungi Kantor Kami",
-    "ctaDesc": "Jadwalkan pertemuan atau datang saat jam operasional kami.",
+    "title": "Galeri Tim Kami",
+    "desc": "Kenali tim yang membantu proses Anda — profesional, responsif, dan menjaga kerahasiaan setiap dokumen dengan baik.",
+    "ctaTitle": "Butuh Bantuan?",
+    "ctaDesc": "Buat janji temu atau hubungi tim kami untuk mendapatkan arahan.",
     "ctaButton": "Hubungi Kami",
-    "itemAlt": "Item galeri"
+    "itemAlt": "Anggota tim",
+    "badge": "Perwakilan",
+
+    "employees": [
+      { "name": "Hanif", "role": "Penanganan Klien", "photo": "/images/mas hanif.png" },
+      { "name": "Anang", "role": "Dukungan Dokumen", "photo": "/images/pak anang.png" },
+      { "name": "Aiska", "role": "Penjadwalan", "photo": "/images/mba ais.png" },
+      { "name": "Eva", "role": "Administrasi", "photo": "/images/mba eva.png" },
+      { "name": "Anggota Tim", "role": "Dukungan Kantor", "photo": "/gallery/5.jpg" },
+      { "name": "Anggota Tim", "role": "Dukungan Kantor", "photo": "/gallery/6.jpg" },
+      { "name": "Anggota Tim", "role": "Dukungan Kantor", "photo": "/gallery/7.jpg" },
+      { "name": "Anggota Tim", "role": "Dukungan Kantor", "photo": "/gallery/8.jpg" }
+    ]
   },
   
   "articlesPreview": {

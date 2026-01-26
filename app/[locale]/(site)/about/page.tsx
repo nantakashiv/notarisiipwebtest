@@ -14,7 +14,7 @@ export default async function AboutPage({
       {/* ===================== HERO ===================== */}
       <div
         className="relative w-full h-[420px] bg-cover bg-center flex items-center"
-        style={{ backgroundImage: "url('/about-hero.jpg')" }}
+        style={{ backgroundImage: "url('/images/bg-hero7.jpg')" }}
       >
         <div className="absolute inset-0 bg-black/30 backdrop-blur-[2px]" />
 
@@ -46,7 +46,7 @@ export default async function AboutPage({
 
         <div className="rounded-3xl overflow-hidden shadow-xl border border-gray-200">
           <img
-            src="/a.jpg"
+            src="/images/map.jpeg"
             alt={m.aboutPage.section1ImageAlt}
             className="w-full h-[360px] object-cover"
           />

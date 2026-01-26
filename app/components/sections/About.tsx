@@ -87,24 +87,26 @@ export default function About() {
           >
             <motion.div
               variants={fadeUpSoft}
-              className="rounded-xl border border-gray-200 bg-gray-50 p-5"
+              className="rounded-xl border border-gray-200 bg-white p-5"
             >
-              <div className="w-10 h-10 rounded-full bg-gray-200 mb-3" />
               <h4 className="font-semibold text-gray-900 text-sm">
                 {m.about.badge1Title}
               </h4>
-              <p className="mt-1 text-sm text-gray-600">{m.about.badge1Desc}</p>
+              <p className="mt-1 text-sm text-gray-600">
+                {m.about.badge1Desc}
+              </p>
             </motion.div>
 
             <motion.div
               variants={fadeUpSoft}
-              className="rounded-xl border border-gray-200 bg-gray-50 p-5"
+              className="rounded-xl border border-gray-200 bg-white p-5"
             >
-              <div className="w-10 h-10 rounded-full bg-gray-200 mb-3" />
               <h4 className="font-semibold text-gray-900 text-sm">
                 {m.about.badge2Title}
               </h4>
-              <p className="mt-1 text-sm text-gray-600">{m.about.badge2Desc}</p>
+              <p className="mt-1 text-sm text-gray-600">
+                {m.about.badge2Desc}
+              </p>
             </motion.div>
           </motion.div>
         </motion.div>
@@ -128,7 +130,7 @@ export default function About() {
             <p className="text-gray-600 leading-relaxed">{m.about.aboutP3}</p>
 
             <Link
-              href={`/${locale}/contact`}
+              href={`/${locale}/appointment`}
               className="
                 inline-block mt-4
                 px-7 py-3
@@ -160,7 +162,7 @@ export default function About() {
                 className="relative h-[340px] rounded-2xl overflow-hidden border border-gray-200 bg-gray-100"
               >
                 <Image
-                  src="/images/bapak.png"
+                  src="/images/bapak1.png"
                   alt={m.about.profileAlt}
                   fill
                   className="object-cover"
@@ -173,7 +175,9 @@ export default function About() {
                   {m.about.profileName}
                 </h4>
                 <p className="mt-1 text-gray-600">{m.about.profileRole}</p>
-                <p className="mt-1 text-sm text-gray-500">{m.about.profileMeta}</p>
+                <p className="mt-1 text-sm text-gray-500">
+                  {m.about.profileMeta}
+                </p>
 
                 <p className="mt-4 text-gray-600 text-sm leading-relaxed">
                   {m.about.profileDesc}
@@ -184,13 +188,17 @@ export default function About() {
                     <p className="text-xl font-semibold text-gray-900">
                       {m.about.statYears}
                     </p>
-                    <p className="text-sm text-gray-600">{m.about.statYearsLabel}</p>
+                    <p className="text-sm text-gray-600">
+                      {m.about.statYearsLabel}
+                    </p>
                   </div>
                   <div className="rounded-lg bg-gray-50 p-4">
                     <p className="text-xl font-semibold text-gray-900">
                       {m.about.statDocs}
                     </p>
-                    <p className="text-sm text-gray-600">{m.about.statDocsLabel}</p>
+                    <p className="text-sm text-gray-600">
+                      {m.about.statDocsLabel}
+                    </p>
                   </div>
                 </div>
               </div>
@@ -223,7 +231,7 @@ export default function About() {
           ))}
         </motion.div>
 
-        {/* ✅ NEW: NOTARY REPRESENTATIVES (3 CARDS) */}
+        {/* ✅ TEAM: TRUSTED REPRESENTATIVES */}
         <motion.div
           variants={containerVariants}
           initial="hidden"
@@ -243,28 +251,35 @@ export default function About() {
                 </p>
               </motion.div>
 
+              {/* ✅ IMPORTANT: Mobile = 2 columns so cards become SMALL */}
               <motion.div
                 variants={containerVariants}
-                className="mt-5 grid grid-cols-1 sm:grid-cols-3 gap-4"
+                className="mt-5 grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3 sm:gap-4"
               >
                 {[
                   {
                     name: m.about.rep1Name,
                     role: m.about.rep1Role,
-                    photo: "/images/team-1.jpg",
+                    photo: "/images/mas hanif.png",
                     alt: m.about.repAlt1,
                   },
                   {
                     name: m.about.rep2Name,
                     role: m.about.rep2Role,
-                    photo: "/images/team-2.jpg",
+                    photo: "/images/pak anang.png",
                     alt: m.about.repAlt2,
                   },
                   {
                     name: m.about.rep3Name,
                     role: m.about.rep3Role,
-                    photo: "/images/team-3.jpg",
+                    photo: "/images/mba ais.png",
                     alt: m.about.repAlt3,
+                  },
+                  {
+                    name: m.about.rep4Name,
+                    role: m.about.rep4Role,
+                    photo: "/images/mba eva.png",
+                    alt: m.about.repAlt4,
                   },
                 ].map((person, i) => (
                   <motion.article
@@ -279,26 +294,33 @@ export default function About() {
                       hover:shadow-md
                     "
                   >
-                    {/* Photo */}
-                    <div className="relative h-[130px] bg-gray-100 overflow-hidden">
+                    {/* ✅ PHOTO AREA:
+                        - aspect-[4/5] makes it ALWAYS 4:5
+                        - width follows card width automatically
+                        - height follows aspect ratio automatically
+                        - NO fixed height, so it always matches the card size naturally
+                    */}
+                    <div className="relative aspect-[4/5] w-full overflow-hidden bg-gray-100">
                       <Image
                         src={person.photo}
                         alt={person.alt}
                         fill
                         className="object-cover transition-transform duration-500 group-hover:scale-[1.04]"
-                        sizes="(min-width: 1024px) 220px, (min-width: 640px) 33vw, 100vw"
+                        sizes="(min-width:1024px) 240px, (min-width:640px) 33vw, 50vw"
                       />
                     </div>
 
-                    {/* Text */}
-                    <div className="p-4">
-                      <p className="text-[14px] font-semibold text-gray-900 leading-snug">
+                    {/* ✅ TEXT: make it smaller on mobile so card becomes smaller too */}
+                    <div className="p-3 sm:p-4">
+                      <p className="text-[12.5px] sm:text-[14px] font-semibold text-gray-900 leading-snug">
                         {person.name}
                       </p>
-                      <p className="mt-1 text-xs text-gray-600">{person.role}</p>
+                      <p className="mt-1 text-[10.5px] sm:text-xs text-gray-600">
+                        {person.role}
+                      </p>
 
                       <div className="mt-3 h-[1px] w-full bg-gray-100" />
-                      <p className="mt-3 text-[11px] text-gray-500">
+                      <p className="mt-3 text-[10px] sm:text-[11px] text-gray-500">
                         {m.about.repBadge}
                       </p>
                     </div>

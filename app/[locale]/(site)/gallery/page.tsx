@@ -15,6 +15,12 @@ export default async function GalleryPage({
   // ✅ load messages directly on server
   const m = await getMessages(locale);
 
+  const employees = m.gallery.employees as {
+    name: string;
+    role: string;
+    photo: string;
+  }[];
+
   return (
     <main className="min-h-screen bg-white px-6 py-20">
       <div className="max-w-6xl mx-auto">
@@ -28,82 +34,70 @@ export default async function GalleryPage({
           </p>
         </section>
 
-        {/* Gallery Grid */}
+        {/* ✅ Gallery Grid */}
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 lg:gap-5">
-          {images.map((src, i) => (
+          {employees.map((emp, i) => (
             <div
               key={i}
               className="
-                group relative
-                rounded-3xl
-                overflow-hidden
-                bg-neutral-950
-                shadow-[0_15px_60px_rgba(0,0,0,0.25)]
+                group relative overflow-hidden
+                rounded-[28px]
+                border border-slate-200
+                bg-slate-100
+                shadow-[0_18px_60px_rgba(15,23,42,0.08)]
                 transition-all duration-300
                 hover:-translate-y-1
+                hover:shadow-[0_28px_90px_rgba(15,23,42,0.14)]
               "
             >
-              {/* Neon frame border */}
-              <div
-                className="
-                  pointer-events-none
-                  absolute inset-0
-                  rounded-3xl
-                  border border-white/10
-                  before:content-['']
-                  before:absolute before:inset-0 before:rounded-3xl
-                  before:bg-[linear-gradient(120deg,rgba(59,130,246,0.35),rgba(14,165,233,0.15),transparent)]
-                  before:opacity-0
-                  before:transition-opacity before:duration-500
-                  group-hover:before:opacity-100
-                "
-              />
-
               {/* Photo */}
-              <div className="relative w-full h-[220px] sm:h-[240px] md:h-[260px] lg:h-[280px]">
+              <div className="relative w-full aspect-[3/4]">
                 <img
-                  src={src}
+                  src={emp.photo}
                   alt={`${m.gallery.itemAlt} ${i + 1}`}
                   className="
                     absolute inset-0 h-full w-full object-cover
-                    opacity-90
-                    transition-all duration-700 ease-out
-                    group-hover:opacity-100 group-hover:scale-[1.06]
+                    transition-transform duration-700 ease-out
+                    group-hover:scale-[1.05]
                   "
                 />
 
-                {/* Dark overlay */}
-                <div
-                  className="
-                    absolute inset-0
-                    bg-gradient-to-t from-black/70 via-black/10 to-transparent
-                  "
-                />
-              </div>
+                {/* ✅ Bottom smooth blur + gradient (NO hard line) */}
+                <div className="pointer-events-none absolute inset-x-0 bottom-0 h-[32%]">
+                  {/* blur layer (small + subtle) */}
+                  <div className="absolute inset-0 bg-black/20 blur-2xl opacity-70" />
 
-              {/* Caption */}
-              <div className="absolute bottom-0 left-0 right-0 p-3">
-                <div
-                  className="
-                    flex items-center justify-between
-                    rounded-2xl
-                    bg-white/10 backdrop-blur-xl
-                    border border-white/15
-                    px-3 py-2.5
-                    transition-all duration-300
-                    group-hover:bg-white/14
-                  "
-                >
-                  <div>
-                    <p className="text-[10px] uppercase tracking-[0.18em] text-white/60">
-                      {m.gallery.captionTop}
-                    </p>
-                    <p className="text-[12px] font-semibold text-white">
-                      {m.gallery.captionBottom} {i + 1}
-                    </p>
-                  </div>
+                  {/* gradient fade to transparent */}
+                  <div
+                    className="
+                      absolute inset-0
+                      bg-gradient-to-t
+                      from-black/55
+                      via-black/20
+                      to-transparent
+                    "
+                  />
+                </div>
+
+                {/* Name & Role */}
+                <div className="absolute bottom-0 left-0 right-0 p-4">
+                  <p className="text-[14px] font-semibold text-white leading-tight">
+                    {emp.name}
+                  </p>
+                  <p className="mt-1 text-[12px] text-white/85 leading-tight">
+                    {emp.role}
+                  </p>
                 </div>
               </div>
+
+              {/* subtle hover ring */}
+              <div
+                className="
+                  pointer-events-none absolute inset-0 rounded-[28px]
+                  ring-1 ring-black/0 transition-all duration-300
+                  group-hover:ring-black/10
+                "
+              />
             </div>
           ))}
         </div>
@@ -114,9 +108,19 @@ export default async function GalleryPage({
             {m.gallery.ctaTitle}
           </h2>
           <p className="text-neutral-600 mb-6">{m.gallery.ctaDesc}</p>
+
           <Link
-            href={`/${locale}/contact`}
-            className="px-6 py-3 bg-black text-white rounded-full text-sm"
+            href={`/${locale}/appointment`}
+            className="
+              inline-flex items-center justify-center
+              px-6 py-3
+              bg-black text-white
+              rounded-full text-sm font-medium
+              transition-all duration-200
+              hover:bg-slate-900
+              hover:-translate-y-[1px]
+              active:translate-y-0
+            "
           >
             {m.gallery.ctaButton}
           </Link>
@@ -125,14 +129,3 @@ export default async function GalleryPage({
     </main>
   );
 }
-
-const images = [
-  "/gallery/1.jpg",
-  "/gallery/2.jpg",
-  "/gallery/3.jpg",
-  "/gallery/4.jpg",
-  "/gallery/5.jpg",
-  "/gallery/6.jpg",
-  "/gallery/7.jpg",
-  "/gallery/8.jpg",
-];

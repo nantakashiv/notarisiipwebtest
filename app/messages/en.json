@@ -12,15 +12,31 @@
     "tagOffice": "Notary & PPAT Office",
     "tagLocation": "Brebes, Central Java",
     "tagSchedule": "Mon–Sat • By Appointment",
+
     "titleLine1": "Notary & PPAT",
     "titleLine2": "Iip Affadin, S.H., M.Kn",
+
     "headline": "Official notarial and land deed services in Brebes delivered with discretion, precision, and legal certainty.",
     "desc": "Services for deeds, agreements, inheritance matters, and corporate documentation handled professionally with confidentiality and full legal compliance.",
+
     "ctaBook": "Book an Appointment",
     "ctaServices": "View Services",
     "note": "Open Mon–Sat • In-person & remote notarization",
+
+    "verifiedTag": "Verified Legal Office",
+    "verifiedTitle": "Notary & PPAT Services",
+    "verifiedDesc": "Corporate documentation, inheritance matters, agreements, and authentic deeds — handled professionally and confidentially.",
+    "badgeTrusted": "Trusted",
+
+    "point1": "Appointment-based flow",
+    "point2": "Strict confidentiality",
+
     "cardFast": "Fast turnaround",
+    "cardFastDesc": "Efficient processing with appointment-based service flow.",
+
     "cardSecure": "Secure & certified",
+    "cardSecureDesc": "Confidential handling with verified documentation standards.",
+
     "imageAlt": "Notary Office Head"
   },
   "about": {
@@ -62,12 +78,14 @@
     "teamTitle": "Trusted Representatives",
     "teamDesc": "A dedicated team supporting your process responsive, professional, and confidential.",
 
-    "rep1Name": "Hanif",
+    "rep1Name": "Imam Abu Hanifah",
     "rep1Role": "Client Handling",
-    "rep2Name": "Anang",
+    "rep2Name": "Anang Surahmanto",
     "rep2Role": "Document Support",
-    "rep3Name": "Aiska",
+    "rep3Name": "Aiska Dina Safitri",
     "rep3Role": "Scheduling",
+    "rep4Name": "Eva Muzdalifah",
+    "rep4Role": "Customer Support",
 
     "repBadge": "Office Representative",
 
@@ -86,6 +104,7 @@
     "repAlt1": "Notary office representative",
     "repAlt2": "Notary office representative",
     "repAlt3": "Notary office representative",
+    "repAlt4": "Notary office representative",
     "profileAlt": "Notary portrait"
   },
   "certifications": {
@@ -343,14 +362,24 @@
     "ctaButton": "Book an Appointment"
   },
   "gallery": {
-    "title": "Office Gallery",
-    "desc": "A glimpse inside our notary office, facilities, and environment where we assist clients with professionalism and comfort.",
-    "captionTop": "Gallery",
-    "captionBottom": "Office Moment",
-    "ctaTitle": "Visit Our Office",
-    "ctaDesc": "Schedule a meeting or drop by during our working hours.",
+    "title": "Our Team Gallery",
+    "desc": "Meet the people behind our office — professional, responsive, and ready to assist your process with care and confidentiality.",
+    "ctaTitle": "Need Assistance?",
+    "ctaDesc": "Book an appointment or contact our team for guidance.",
     "ctaButton": "Contact Us",
-    "itemAlt": "Gallery item"
+    "itemAlt": "Team member",
+    "badge": "Representative",
+
+    "employees": [
+      { "name": "Hanif", "role": "Client Handling", "photo": "/images/mas hanif.png" },
+      { "name": "Anang", "role": "Document Support", "photo": "/images/pak anang.png" },
+      { "name": "Aiska", "role": "Scheduling", "photo": "/images/mba ais.png" },
+      { "name": "Eva", "role": "Administration", "photo": "/images/mba eva.png" },
+      { "name": "Team Member", "role": "Office Support", "photo": "/gallery/5.jpg" },
+      { "name": "Team Member", "role": "Office Support", "photo": "/gallery/6.jpg" },
+      { "name": "Team Member", "role": "Office Support", "photo": "/gallery/7.jpg" },
+      { "name": "Team Member", "role": "Office Support", "photo": "/gallery/8.jpg" }
+    ]
   },
 
   "articlesPreview": {
