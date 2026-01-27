@@ -31,7 +31,7 @@ function LanguageSwitch({
       {/* Label */}
       <span
         className={`
-          hidden sm:block text-[13px] font-semibold
+          hidden lg:block text-[12px] font-semibold
           ${scrolled ? "text-slate-700" : "text-slate-700"}
         `}
       >
@@ -43,9 +43,7 @@ function LanguageSwitch({
         className={`
           relative flex items-center rounded-full p-1 border
           select-none transition-all duration-300
-          ${scrolled
-            ? "bg-white border-slate-200 shadow-sm"
-            : "bg-white border-slate-200 shadow-sm"}
+          ${scrolled ? "bg-white border-slate-200 shadow-sm" : "bg-white border-slate-200 shadow-sm"}
         `}
         aria-label="Language switch"
       >
@@ -53,18 +51,18 @@ function LanguageSwitch({
         <span
           className={`
             absolute top-1 bottom-1 left-1
-            w-[52px] rounded-full
+            w-[44px] rounded-full
             transition-transform duration-300 ease-out
             ${scrolled ? "bg-slate-900" : "bg-slate-900"}
-            ${activeIsID ? "translate-x-0" : "translate-x-[52px]"}
+            ${activeIsID ? "translate-x-0" : "translate-x-[44px]"}
           `}
         />
 
         <button
           onClick={() => onSwitch("id")}
           className={`
-            relative z-10 w-[52px] h-[34px]
-            rounded-full text-[13px] font-bold cursor-pointer
+            relative z-10 w-[44px] h-[30px]
+            rounded-full text-[12px] font-bold cursor-pointer
             transition-colors duration-300
             ${activeIsID ? "text-white" : "text-slate-700 hover:text-slate-900"}
           `}
@@ -76,12 +74,10 @@ function LanguageSwitch({
         <button
           onClick={() => onSwitch("en")}
           className={`
-            relative z-10 w-[52px] h-[34px]
-            rounded-full text-[13px] font-bold cursor-pointer
+            relative z-10 w-[44px] h-[30px]
+            rounded-full text-[12px] font-bold cursor-pointer
             transition-colors duration-300
-            ${!activeIsID
-              ? "text-white"
-              : "text-slate-700 hover:text-slate-900"}
+            ${!activeIsID ? "text-white" : "text-slate-700 hover:text-slate-900"}
           `}
           type="button"
         >
@@ -128,7 +124,7 @@ export default function NavbarHome() {
     <header
       className={`
         fixed top-0 left-0 w-full z-50
-        transition-all duration-300
+         transition-all duration-300
         ${
           scrolled
             ? "bg-white/90 backdrop-blur-md shadow-sm border-b border-slate-200"
@@ -136,47 +132,51 @@ export default function NavbarHome() {
         }
       `}
     >
-      <div className="max-w-[1536px] mx-auto px-6 xl:px-12">
+      {/* ✅ Smaller horizontal padding */}
+      <div className="max-w-[1536px] mx-auto px-4 sm:px-6 xl:px-10">
         {/* NAVBAR ROW */}
-        <div className="flex h-[72px] items-center gap-6">
-          {/* LOGO (left) */}
+        <div className="flex h-[60px] lg:h-[64px] items-center gap-4">
+          {/* LOGO */}
           <Link
             href={`/${currentLocale}`}
-            className="flex items-center gap-3 lg:min-w-[320px]"
+            className="flex items-center gap-2 lg:min-w-[280px]"
           >
             <Image
               src="/images/logo.png"
               alt="Notary Office"
-              width={36}
-              height={36}
+              width={30}
+              height={30}
+              className="shrink-0"
+              priority
             />
 
-            {/* ✅ SHOW NAME EVEN ON SMALLEST */}
             <span
               className={`
-                block text-[13px] sm:text-[15px]
+                block text-[12px] sm:text-[13px]
                 font-medium tracking-wide font-sans
                 transition-colors
                 ${scrolled ? "text-slate-900" : "text-slate-900"}
                 whitespace-nowrap
               `}
             >
-              {/* ✅ Mobile (smallest) */}
+              {/* Mobile */}
               <span className="inline sm:hidden">NOTARIS IIP AFFADIN</span>
 
-              {/* ✅ Tablet/Desktop */}
-              <span className="hidden sm:inline">NOTARIS IIP AFFADIN, S.H., M.Kn</span>
+              {/* Tablet/Desktop */}
+              <span className="hidden sm:inline">
+                NOTARIS IIP AFFADIN, S.H., M.Kn
+              </span>
             </span>
           </Link>
 
-          {/* ✅ pushes right section to the far right on small screens */}
+          {/* ✅ push right section to far right on mobile */}
           <div className="flex-1 lg:hidden" />
 
-          {/* DESKTOP NAV (center) */}
+          {/* DESKTOP NAV */}
           <nav
             className={`
               hidden lg:flex flex-1 items-center justify-center
-              gap-12 text-[15px]
+              gap-9 text-[13px]
               transition-colors
               ${scrolled ? "text-slate-700" : "text-slate-700"}
             `}
@@ -203,20 +203,15 @@ export default function NavbarHome() {
                   {label}
 
                   {active && (
-                    <span
-                      className={`
-                        absolute -bottom-2 left-0 h-[2px] w-full
-                        ${scrolled ? "bg-slate-900" : "bg-slate-900"}
-                      `}
-                    />
+                    <span className="absolute -bottom-2 left-0 h-[2px] w-full bg-slate-900" />
                   )}
                 </Link>
               );
             })}
           </nav>
 
-          {/* RIGHT SECTION (right) */}
-          <div className="flex items-center gap-5 lg:min-w-[340px] justify-end">
+          {/* RIGHT SECTION */}
+          <div className="flex items-center gap-3 lg:min-w-[320px] justify-end">
             <LanguageSwitch
               scrolled={scrolled}
               locale={currentLocale}
@@ -227,11 +222,12 @@ export default function NavbarHome() {
               href={`/${currentLocale}/appointment`}
               className={`
                 hidden lg:flex items-center justify-center
-                rounded-full px-5 py-2 text-[15px] font-semibold
+                rounded-full px-4 py-2
+                text-[13px] font-semibold
                 transition-all duration-200
                 hover:-translate-y-[1px]
                 active:translate-y-0
-                w-[190px]
+                w-[160px]
                 ${
                   scrolled
                     ? "bg-slate-900 text-white hover:bg-slate-800"
@@ -245,7 +241,7 @@ export default function NavbarHome() {
             <button
               onClick={() => setOpen(!open)}
               className={`
-                lg:hidden p-3 text-xl
+                lg:hidden p-2 text-lg
                 transition cursor-pointer
                 ${scrolled ? "text-slate-900" : "text-slate-900"}
               `}
@@ -258,9 +254,9 @@ export default function NavbarHome() {
 
         {/* MOBILE MENU */}
         {open && (
-          <div className={`lg:hidden pb-6 ${scrolled ? "" : "mt-2"}`}>
+          <div className={`lg:hidden pb-5 ${scrolled ? "" : "mt-2"}`}>
             <div className="rounded-2xl border border-slate-200 bg-white shadow-sm overflow-hidden">
-              <nav className="flex flex-col text-[15px] text-slate-800">
+              <nav className="flex flex-col text-[14px] text-slate-800">
                 {NAV_LINKS.map((link) => {
                   const href =
                     link.href === ""
@@ -276,7 +272,7 @@ export default function NavbarHome() {
                       href={href}
                       onClick={() => setOpen(false)}
                       className={`
-                        px-6 py-4 border-b border-slate-100
+                        px-5 py-3.5 border-b border-slate-100
                         transition hover:bg-slate-50
                         ${active ? "font-semibold text-slate-900" : ""}
                       `}
@@ -290,7 +286,7 @@ export default function NavbarHome() {
                   <Link
                     href={`/${currentLocale}/appointment`}
                     onClick={() => setOpen(false)}
-                    className="block rounded-xl bg-slate-900 py-3 text-center text-white font-semibold hover:bg-slate-800 transition"
+                    className="block rounded-xl bg-slate-900 py-3 text-center text-white text-[14px] font-semibold hover:bg-slate-800 transition"
                   >
                     {(m.nav?.book as string) ?? "Book Appointment"}
                   </Link>

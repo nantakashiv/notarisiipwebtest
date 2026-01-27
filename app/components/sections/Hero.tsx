@@ -10,10 +10,12 @@ export default function Hero() {
   const { locale } = useParams() as { locale: string };
   const m = useMessages();
 
+  // ✅ navbar height (desktop), adjust if your navbar height is different
+
   return (
-    <section className="relative overflow-hidden pt-[88px] sm:pt-[92px] lg:pt-[72px] bg-white">
-      {/* ✅ Background only BELOW navbar */}
-      <div className="absolute inset-x-0 top-[72px] bottom-0 z-0">
+    <section className="relative overflow-hidden pt-[60px] lg:pt-[64px] min-h-screen">
+      {/* ✅ Background starts BELOW navbar padding */}
+      <div className="absolute left-0 right-0 bottom-0 top-[60px] lg:top-[64px] z-0">
         <Image
           src="/images/bg-hero4.jpg"
           alt="Hero Background"
@@ -21,36 +23,41 @@ export default function Hero() {
           priority
           className="object-cover"
         />
-
-        {/* ✅ soften background (clean / premium) */}
-        <div className="absolute inset-0 bg-white/15" />
+        <div className="absolute inset-0 bg-black/15" />
       </div>
 
+      {/* ✅ HERO AREA (centered floating) */}
       <div className="relative z-10 max-w-[1680px] mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="min-h-[calc(100vh-72px)] flex items-center pb-6 sm:pb-8">
-          {/* ✅ HERO CARD */}
+        {/* ✅ this makes the card float in the center with equal top/bottom gap */}
+        <div
+          className="
+            min-h-[calc(100vh-72px)]
+            flex items-center justify-center
+            py-6 sm:py-10 lg:py-12
+          "
+        >
+          {/* ✅ HERO CARD (smaller & stays smaller) */}
           <div
             className="
-              relative w-full rounded-[32px]
+              relative w-full
+              max-w-[1400px]
+              rounded-[32px]
               overflow-hidden
               border border-[#E6E8EE]
-              bg-white/85
+              bg-white/55
               backdrop-blur-md
               shadow-[0_30px_90px_rgba(15,23,42,0.10)]
             "
           >
             {/* ✅ inside glow */}
             <div className="pointer-events-none absolute inset-0">
-              {/* top highlight */}
               <div className="absolute inset-0 bg-gradient-to-b from-white/85 via-white/40 to-white/75" />
-
-              {/* soft corner glows */}
               <div className="absolute -top-44 -left-44 h-[520px] w-[520px] rounded-full bg-[#0B1220]/[0.04] blur-[180px]" />
               <div className="absolute -bottom-52 -right-44 h-[520px] w-[520px] rounded-full bg-[#002f71]/[0.07] blur-[200px]" />
             </div>
 
-            {/* ✅ CONTENT */}
-            <div className="relative z-10 w-full px-6 sm:px-10 lg:px-16 py-10 sm:py-12 lg:py-14">
+            {/* ✅ CONTENT (a bit tighter so not too tall) */}
+            <div className="relative z-10 w-full px-6 sm:px-10 lg:px-14 py-8 sm:py-10 lg:py-12">
               <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 lg:gap-8 items-center">
                 {/* LEFT */}
                 <motion.div
@@ -99,7 +106,9 @@ export default function Hero() {
                         {m.hero.tagLocation}
                       </span>
                       <span className="text-slate-400">•</span>
-                      <span className="text-slate-500">{m.hero.tagSchedule}</span>
+                      <span className="text-slate-500">
+                        {m.hero.tagSchedule}
+                      </span>
                     </div>
                   </motion.div>
 
@@ -112,10 +121,10 @@ export default function Hero() {
                     transition={{ duration: 0.55, ease: "easeOut" }}
                     className="font-baskerville font-bold text-slate-900"
                   >
-                    <span className="block text-4xl sm:text-5xl lg:text-[46px] leading-[1.06] tracking-[-0.02em]">
+                    <span className="block text-4xl sm:text-5xl lg:text-[44px] leading-[1.06] tracking-[-0.02em]">
                       {m.hero.titleLine1}
                     </span>
-                    <span className="block text-4xl sm:text-5xl lg:text-[46px] leading-[1.06] tracking-[-0.02em]">
+                    <span className="block text-4xl sm:text-5xl lg:text-[44px] leading-[1.06] tracking-[-0.02em]">
                       {m.hero.titleLine2}
                     </span>
 
@@ -143,13 +152,13 @@ export default function Hero() {
                       visible: { opacity: 1, y: 0 },
                     }}
                     transition={{ duration: 0.45, ease: "easeOut" }}
-                    className="mt-8 flex flex-col sm:flex-row gap-3 justify-center lg:justify-start"
+                    className="mt-7 flex flex-col sm:flex-row gap-3 justify-center lg:justify-start"
                   >
                     <Link
                       href={`/${locale}/appointment`}
                       className="
                         inline-flex items-center justify-center
-                        h-[52px] px-8
+                        h-[50px] px-8
                         min-w-[220px] sm:min-w-[240px]
                         rounded-2xl
                         bg-[#0B1220] text-white
@@ -169,7 +178,7 @@ export default function Hero() {
                       href={`/${locale}/services`}
                       className="
                         inline-flex items-center justify-center
-                        h-[52px] px-8
+                        h-[50px] px-8
                         min-w-[220px] sm:min-w-[240px]
                         rounded-2xl
                         bg-white text-slate-900
@@ -207,14 +216,14 @@ export default function Hero() {
                   transition={{ duration: 0.7, ease: "easeOut", delay: 0.05 }}
                   className="flex items-center justify-center"
                 >
-                  <div className="relative w-[280px] h-[320px] sm:w-[320px] sm:h-[360px] lg:w-[360px] lg:h-[420px]">
+                  <div className="relative w-[260px] h-[300px] sm:w-[320px] sm:h-[360px] lg:w-[350px] lg:h-[410px]">
                     <Image
                       src="/images/bapak1.png"
                       alt={m.hero.imageAlt}
                       fill
                       priority
                       className="object-contain drop-shadow-[0_26px_65px_rgba(15,23,42,0.18)]"
-                      sizes="(min-width: 1024px) 360px, (min-width: 640px) 320px, 280px"
+                      sizes="(min-width: 1024px) 350px, (min-width: 640px) 320px, 260px"
                     />
                   </div>
                 </motion.div>

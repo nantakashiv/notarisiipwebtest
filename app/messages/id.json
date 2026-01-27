@@ -50,13 +50,13 @@
     "badge2Desc": "Dipercaya menangani ribuan dokumen hukum untuk kebutuhan personal maupun bisnis.",
 
     "aboutTitle": "Tentang Notaris",
-    "aboutP1": "Nama Notaris, S.H. adalah Notaris & PPAT berizin dengan pengalaman luas dalam menangani transaksi properti, dokumen korporasi, urusan waris, serta perjanjian yang berkekuatan hukum.",
+    "aboutP1": "Iip Affadin, S.H., M.Kn. adalah Notaris & PPAT berizin dengan pengalaman luas dalam menangani transaksi properti, dokumen korporasi, urusan waris, serta perjanjian yang berkekuatan hukum.",
     "aboutP2": "Pendekatannya teliti dan terstruktur memastikan klien memahami setiap dokumen sebelum penandatanganan. Komitmen ini membangun kepercayaan jangka panjang dari individu, keluarga, dan pelaku usaha.",
     "aboutP3": "Alih-alih mengejar volume, kantor mengutamakan akurasi, kepatuhan hukum, serta penjelasan yang jelas untuk meminimalkan sengketa dan kesalahpahaman di kemudian hari.",
 
     "ctaConsultation": "Jadwalkan Konsultasi",
 
-    "profileName": "Nama Notaris, S.H.",
+    "profileName": "Iip Affadin, S.H., M.Kn.",
     "profileRole": "Notaris & PPAT Berizin",
     "profileMeta": "Terdaftar & Tersertifikasi Negara",
     "profileDesc": "Dikenal dengan ketelitian dan penjelasan hukum yang jelas, sehingga setiap klien memahami dokumennya sebelum menandatangani.",
@@ -116,7 +116,7 @@
       {
         "title": "Notaris Terdaftar (Resmi)",
         "authority": "Kementerian Hukum & HAM",
-        "year": "2014",
+        "year": "2012",
         "image": "/certifications/notaris.jpg"
       },
       {
@@ -126,16 +126,16 @@
         "image": "/certifications/ppat.jpg"
       },
       {
-        "title": "Sertifikasi Hukum Korporasi & Bisnis",
-        "authority": "Ikatan Notaris Indonesia",
-        "year": "2019",
-        "image": "/images/cert-corporate.jpg"
+        "title": "Pelatihan Teknis Kenotariatan",
+        "authority": "Direktorat Jenderal AHU",
+        "year": "2013",
+        "image": "/certifications/ijazah.jpg"
       },
       {
-        "title": "Hukum Waris & Perencanaan Harta",
-        "authority": "Lembaga Profesional Hukum",
-        "year": "2021",
-        "image": "/images/cert-inheritance.jpg"
+        "title": "Pendidikan Khusus Profesi Advokat (PKPA)",
+        "authority": "Universitas Islam Indonesia & IKADIN",
+        "year": "2007",
+        "image": "/certifications/advokat.jpg"
       }
     ]
   },

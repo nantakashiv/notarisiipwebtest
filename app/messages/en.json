@@ -25,7 +25,7 @@
 
     "verifiedTag": "Verified Legal Office",
     "verifiedTitle": "Notary & PPAT Services",
-    "verifiedDesc": "Corporate documentation, inheritance matters, agreements, and authentic deeds — handled professionally and confidentially.",
+    "verifiedDesc": "Corporate documentation, inheritance matters, agreements, and authentic deeds handled professionally and confidentially.",
     "badgeTrusted": "Trusted",
 
     "point1": "Appointment-based flow",
@@ -50,13 +50,13 @@
     "badge2Desc": "Trusted with thousands of legal documents for individuals, families, and business entities.",
 
     "aboutTitle": "About the Notary",
-    "aboutP1": "Nama Notaris, S.H. is a licensed Notary & PPAT with extensive experience handling property transactions, corporate documents, inheritance matters, and legally binding agreements.",
+    "aboutP1": "Iip Affadin, S.H., M.Kn. is a licensed Notary & PPAT with extensive experience handling property transactions, corporate documents, inheritance matters, and legally binding agreements.",
     "aboutP2": "His approach is careful and structured ensuring clients fully understand each document before signing. This commitment has built long-term trust with individuals, families, and business entities.",
     "aboutP3": "Rather than prioritizing volume, the office focuses on accuracy, compliance, and clear explanations to reduce future disputes and misunderstandings.",
 
     "ctaConsultation": "Schedule a Consultation",
 
-    "profileName": "Nama Notaris, S.H.",
+    "profileName": "Iip Affadin, S.H., M.Kn.",
     "profileRole": "Licensed Notary & PPAT",
     "profileMeta": "Registered & Certified by the State",
     "profileDesc": "Known for a meticulous approach and clear legal explanations, ensuring every client understands their documents before signing.",
@@ -116,7 +116,7 @@
       {
         "title": "Licensed Public Notary",
         "authority": "Ministry of Law & Human Rights",
-        "year": "2014",
+        "year": "2012",
         "image": "/certifications/notaris.jpg"
       },
       {
@@ -126,16 +126,16 @@
         "image": "/certifications/ppat.jpg"
       },
       {
-        "title": "Corporate & Business Law Certification",
-        "authority": "Indonesian Notary Association",
-        "year": "2019",
-        "image": "/images/cert-corporate.jpg"
+        "title": "Notarial Technical Training",
+        "authority": "Directorate General of AHU",
+        "year": "2013",
+        "image": "/certifications/ijazah.jpg"
       },
       {
-        "title": "Inheritance & Estate Law",
-        "authority": "Professional Legal Institute",
-        "year": "2021",
-        "image": "/images/cert-inheritance.jpg"
+        "title": "Special Education for the Advocate Profession (PKPA)",
+        "authority": "Universitas Islam Indonesia & IKADIN",
+        "year": "2007",
+        "image": "/certifications/advokat.jpg"
       }
     ]
   },

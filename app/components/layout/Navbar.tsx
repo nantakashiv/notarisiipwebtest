@@ -14,6 +14,7 @@ const NAV_LINKS = [
   { key: "gallery", href: "gallery" },
 ] as const;
 
+/* ================= LANGUAGE SWITCH (SIZE MATCHED) ================= */
 function LanguageSwitch({
   locale,
   onSwitch,
@@ -26,37 +27,30 @@ function LanguageSwitch({
 
   return (
     <div className="flex items-center gap-2">
-      {/* Label */}
-      <span className="hidden sm:block text-[13px] font-semibold text-slate-700">
+      <span className="hidden lg:block text-[12px] font-semibold text-slate-700">
         {(m.nav?.languageLabel as string) ?? "Bahasa / Language"}
       </span>
 
-      {/* Switch container */}
       <div
         className="
           relative flex items-center rounded-full p-1 border
-          select-none transition-all duration-300
           bg-white border-slate-200 shadow-sm
         "
-        aria-label="Language switch"
       >
-        {/* Sliding indicator */}
         <span
           className={`
             absolute top-1 bottom-1 left-1
-            w-[52px] rounded-full
-            transition-transform duration-300 ease-out
-            bg-slate-900
-            ${activeIsID ? "translate-x-0" : "translate-x-[52px]"}
+            w-[44px] rounded-full
+            bg-slate-900 transition-transform duration-300
+            ${activeIsID ? "translate-x-0" : "translate-x-[44px]"}
           `}
         />
 
         <button
           onClick={() => onSwitch("id")}
           className={`
-            relative z-10 w-[52px] h-[34px]
-            rounded-full text-[13px] font-bold cursor-pointer
-            transition-colors duration-300
+            relative z-10 w-[44px] h-[30px]
+            text-[12px] font-bold rounded-full cursor-pointer
             ${activeIsID ? "text-white" : "text-slate-700 hover:text-slate-900"}
           `}
           type="button"
@@ -67,14 +61,9 @@ function LanguageSwitch({
         <button
           onClick={() => onSwitch("en")}
           className={`
-            relative z-10 w-[52px] h-[34px]
-            rounded-full text-[13px] font-bold cursor-pointer
-            transition-colors duration-300
-            ${
-              !activeIsID
-                ? "text-white"
-                : "text-slate-700 hover:text-slate-900"
-            }
+            relative z-10 w-[44px] h-[30px]
+            text-[12px] font-bold rounded-full cursor-pointer
+            ${!activeIsID ? "text-white" : "text-slate-700 hover:text-slate-900"}
           `}
           type="button"
         >
@@ -85,12 +74,12 @@ function LanguageSwitch({
   );
 }
 
+/* ================= NAVBAR ================= */
 export default function Navbar() {
   const pathname = usePathname();
   const router = useRouter();
   const { locale } = useParams() as { locale: string };
   const m = useMessages();
-
   const [open, setOpen] = useState(false);
 
   const currentLocale: "id" | "en" = locale === "id" ? "id" : "en";
@@ -100,63 +89,59 @@ export default function Navbar() {
     return pathname.replace(/^\/(en|id)(\/|$)/, "/");
   }, [pathname]);
 
-  const switchLocale = (nextLocale: "en" | "id") => {
+  const switchLocale = (nextLocale: "id" | "en") => {
     if (nextLocale === currentLocale) return;
     setOpen(false);
-
-    const nextPath = `/${nextLocale}${
-      pathWithoutLocale === "/" ? "" : pathWithoutLocale
-    }`;
-    router.push(nextPath);
+    router.push(
+      `/${nextLocale}${pathWithoutLocale === "/" ? "" : pathWithoutLocale}`
+    );
   };
 
   return (
     <header
       className="
         fixed top-0 left-0 w-full z-50
-        bg-white shadow-sm border-b border-slate-200
+        bg-white/90 backdrop-blur-md
+        border-b border-slate-200 shadow-sm
       "
     >
-      <div className="max-w-[1536px] mx-auto px-6 xl:px-12">
+      <div className="max-w-[1536px] mx-auto px-4 sm:px-6 xl:px-10">
         {/* NAVBAR ROW */}
-        <div className="flex h-[72px] items-center gap-6">
-          {/* LOGO (left) */}
+        <div className="flex h-[60px] lg:h-[64px] items-center gap-4">
+          {/* LOGO */}
           <Link
             href={`/${currentLocale}`}
-            className="flex items-center gap-3 lg:min-w-[320px]"
+            className="flex items-center gap-2 lg:min-w-[280px]"
           >
             <Image
               src="/images/logo.png"
               alt="Notary Office"
-              width={36}
-              height={36}
+              width={30}
+              height={30}
+              priority
             />
 
             <span
               className="
-                block text-[13px] sm:text-[15px]
-                font-medium tracking-wide font-sans
-                text-slate-900
-                whitespace-nowrap
+                text-[12px] sm:text-[13px]
+                font-medium tracking-wide
+                text-slate-900 whitespace-nowrap
               "
             >
-              {/* ✅ Mobile (smallest) */}
               <span className="inline sm:hidden">NOTARIS IIP AFFADIN</span>
-
-              {/* ✅ Tablet/Desktop */}
-              <span className="hidden sm:inline">NOTARIS IIP AFFADIN, S.H., M.Kn</span>
+              <span className="hidden sm:inline">
+                NOTARIS IIP AFFADIN, S.H., M.Kn
+              </span>
             </span>
           </Link>
 
-          {/* ✅ pushes right section to the far right on small screens */}
           <div className="flex-1 lg:hidden" />
 
-          {/* DESKTOP NAV (center) */}
+          {/* DESKTOP NAV */}
           <nav
             className="
               hidden lg:flex flex-1 items-center justify-center
-              gap-12 text-[15px]
-              text-slate-700
+              gap-9 text-[13px] text-slate-700
             "
           >
             {NAV_LINKS.map((link) => {
@@ -172,13 +157,11 @@ export default function Navbar() {
                 <Link
                   key={link.key}
                   href={href}
-                  className={`
-                    relative transition-all hover:opacity-80
-                    ${active ? "font-semibold text-slate-900" : ""}
-                  `}
+                  className={`relative hover:opacity-80 ${
+                    active ? "font-semibold text-slate-900" : ""
+                  }`}
                 >
                   {label}
-
                   {active && (
                     <span className="absolute -bottom-2 left-0 h-[2px] w-full bg-slate-900" />
                   )}
@@ -187,20 +170,18 @@ export default function Navbar() {
             })}
           </nav>
 
-          {/* RIGHT SECTION (right) */}
-          <div className="flex items-center gap-5 lg:min-w-[340px] justify-end">
+          {/* RIGHT */}
+          <div className="flex items-center gap-3 lg:min-w-[320px] justify-end">
             <LanguageSwitch locale={currentLocale} onSwitch={switchLocale} />
 
             <Link
               href={`/${currentLocale}/appointment`}
               className="
                 hidden lg:flex items-center justify-center
-                rounded-full px-5 py-2 text-[15px] font-semibold
-                transition-all duration-200
-                hover:-translate-y-[1px]
-                active:translate-y-0
-                w-[190px]
+                rounded-full px-4 py-2 w-[160px]
+                text-[13px] font-semibold
                 bg-slate-900 text-white hover:bg-slate-800
+                transition
               "
             >
               {(m.nav?.book as string) ?? "Book Appointment"}
@@ -208,12 +189,7 @@ export default function Navbar() {
 
             <button
               onClick={() => setOpen(!open)}
-              className="
-                lg:hidden p-3 text-xl
-                text-slate-900
-                transition cursor-pointer
-              "
-              aria-label="Toggle menu"
+              className="lg:hidden p-2 text-lg text-slate-900 cursor-pointer"
             >
               {open ? "✕" : "☰"}
             </button>
@@ -222,9 +198,9 @@ export default function Navbar() {
 
         {/* MOBILE MENU */}
         {open && (
-          <div className="lg:hidden pb-6 mt-2">
-            <div className="rounded-2xl border border-slate-200 bg-white shadow-sm overflow-hidden">
-              <nav className="flex flex-col text-[15px] text-slate-800">
+          <div className="lg:hidden pb-5 mt-2">
+            <div className="rounded-2xl border border-slate-200 bg-white shadow-sm">
+              <nav className="flex flex-col text-[14px] text-slate-800">
                 {NAV_LINKS.map((link) => {
                   const href =
                     link.href === ""
@@ -239,11 +215,9 @@ export default function Navbar() {
                       key={link.key}
                       href={href}
                       onClick={() => setOpen(false)}
-                      className={`
-                        px-6 py-4 border-b border-slate-100
-                        transition hover:bg-slate-50
-                        ${active ? "font-semibold text-slate-900" : ""}
-                      `}
+                      className={`px-5 py-3.5 border-b border-slate-100 ${
+                        active ? "font-semibold text-slate-900" : ""
+                      }`}
                     >
                       {label}
                     </Link>
@@ -254,7 +228,7 @@ export default function Navbar() {
                   <Link
                     href={`/${currentLocale}/appointment`}
                     onClick={() => setOpen(false)}
-                    className="block rounded-xl bg-slate-900 py-3 text-center text-white font-semibold hover:bg-slate-800 transition"
+                    className="block rounded-xl bg-slate-900 py-3 text-center text-white text-[14px] font-semibold"
                   >
                     {(m.nav?.book as string) ?? "Book Appointment"}
                   </Link>
