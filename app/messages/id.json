@@ -144,9 +144,9 @@
     "desc": "Layanan notaris yang menyeluruh untuk kebutuhan pribadi maupun bisnis.",
     "more": "Lihat semua layanan →",
     "items": {
-      "legalization": {
-        "title": "Legalisasi Dokumen",
-        "description": "Legalisasi resmi dan apostille (jika diperlukan) untuk dokumen internasional."
+      "legalizationAndCertifiedCopy": {
+        "title": "Legalisasi & Salinan Dokumen Tersertifikasi",
+        "description": "Layanan legalisasi dokumen dan pengesahan salinan agar sah serta sesuai dengan dokumen asli."
       },
       "contract": {
         "title": "Notarisasi Perjanjian",
@@ -164,9 +164,13 @@
         "title": "Pernyataan/Sumpah (Affidavit)",
         "description": "Pembuatan pernyataan tertulis untuk kebutuhan proses hukum."
       },
-      "copy": {
-        "title": "Salinan Sah (Certified Copy)",
-        "description": "Pengesahan salinan dokumen resmi sesuai ketentuan."
+      "legalEntityEstablishment": {
+        "title": "Pendirian & Pengesahan Badan Hukum",
+        "description": "Pendampingan pendirian dan pengesahan badan hukum melalui sistem resmi Kementerian Hukum dan HAM."
+      },
+      "landUsePlanning": {
+        "title": "Perencanaan & Strategi Pemanfaatan Lahan",
+        "description": "Konsultasi dan pendampingan perencanaan pemanfaatan lahan sesuai tata ruang untuk usaha perorangan maupun badan hukum."
       }
     }
   },
@@ -232,100 +236,124 @@
     "footerRight": "Detail →",
 
     "items": {
-      "legalization": {
-        "title": "Legalisasi Dokumen",
-        "desc": "Kami membantu proses legalisasi dokumen agar dokumen Anda dapat diverifikasi dengan benar dan diakui secara resmi. Kantor kami akan memandu persyaratan, dokumen asli yang perlu dibawa, serta prosedur penandatanganan agar proses berjalan lancar.",
+      "legalizationAndCertifiedCopy": {
+        "title": "Legalisasi & Salinan Dokumen Tersertifikasi",
+        "desc": "Layanan legalisasi dokumen serta pengesahan salinan agar sesuai dengan dokumen asli. Kami melakukan verifikasi tanda tangan, pemeriksaan kelengkapan, dan pencocokan dokumen secara teliti sebelum memberikan pengesahan resmi.",
         "helpsWith": [
           "Verifikasi tanda tangan dan dokumen pendukung",
-          "Panduan persyaratan legalisasi dokumen",
-          "Pengecekan kelengkapan sebelum pengajuan"
+          "Pencocokan salinan dengan dokumen asli",
+          "Panduan persyaratan dan prosedur legalisasi",
+          "Pemberian cap dan tanda tangan resmi"
         ],
         "commonDocs": [
           "Surat pernyataan & surat pribadi",
           "Dokumen perusahaan",
-          "Sertifikat & dokumen pendukung"
+          "KTP / dokumen identitas",
+          "Sertifikat & surat resmi"
         ],
-        "time": "Estimasi: 1–3 hari kerja"
+        "time": "Estimasi: 1 hari kerja (tergantung jenis dokumen)"
       },
 
       "contract": {
-        "title": "Pembuatan / Pengesahan Perjanjian",
-        "desc": "Layanan notaris untuk perjanjian yang membutuhkan kejelasan isi, kepastian hukum, dan dokumentasi resmi. Kami memastikan para pihak memahami dokumen sebelum menandatangani.",
+        "title": "Legalisasi & Notarisasi Perjanjian",
+        "desc": "Layanan notarisasi komprehensif untuk perjanjian pribadi maupun komersial guna menjamin kepastian hukum, kekuatan pembuktian, dan kesesuaian formal. Kami memfasilitasi penelaahan isi perjanjian, penjelasan implikasi hukum, serta proses penandatanganan secara resmi.",
         "helpsWith": [
-          "Pemeriksaan poin penting perjanjian sebelum tanda tangan",
-          "Pendampingan proses penandatanganan",
-          "Dokumentasi notaris sesuai prosedur"
+          "Penelaahan dan klarifikasi isi perjanjian sebelum penandatanganan",
+          "Koordinasi proses penandatanganan dan verifikasi identitas",
+          "Notarisasi resmi dan pengesahan dokumen hukum"
         ],
         "commonDocs": [
-          "Perjanjian bisnis",
-          "Perjanjian pribadi",
-          "Kesepakatan kerja sama"
+          "Perjanjian bisnis dan komersial",
+          "Perjanjian kerja sama",
+          "Perjanjian atau kesepakatan pribadi"
         ],
-        "time": "Estimasi: selesai di hari yang sama (dengan janji)"
+        "time": "Estimasi: selesai di hari yang sama (dengan perjanjian)"
       },
 
       "property": {
-        "title": "Akta & Dokumen Pertanahan",
-        "desc": "Pendampingan dokumen pertanahan dan properti dengan proses yang teliti dan sesuai ketentuan. Kami membantu memastikan dokumen lengkap, benar, dan memenuhi persyaratan hukum.",
+        "title": "Akta & Dokumen Properti",
+        "desc": "Pendampingan profesional dalam penyusunan dan notarisasi dokumen pengalihan hak atas tanah dan properti sesuai ketentuan peraturan perundang-undangan. Kami memastikan kelengkapan, keabsahan, serta proses pelaksanaan berjalan secara tertib dan sah.",
         "helpsWith": [
-          "Panduan persyaratan dan proses pembuatan akta",
-          "Pengecekan dokumen kepemilikan dan pendukung",
-          "Koordinasi proses penandatanganan"
+          "Panduan penyusunan akta dan persyaratan hukum",
+          "Verifikasi kepemilikan dan dokumen pendukung",
+          "Pelaksanaan penandatanganan dan pengesahan resmi"
         ],
         "commonDocs": [
-          "Sertifikat tanah",
-          "Dokumen peralihan hak",
-          "Identitas dan dokumen pendukung"
+          "Sertifikat hak atas tanah",
+          "Akta jual beli",
+          "Dokumen identitas dan dokumen pendukung lainnya"
         ],
-        "time": "Estimasi: menyesuaikan kebutuhan"
+        "time": "Estimasi: menyesuaikan kelengkapan dan persyaratan dokumen"
       },
 
       "poa": {
-        "title": "Surat Kuasa (POA)",
-        "desc": "Pembuatan dan pengesahan surat kuasa untuk keperluan perwakilan, pemberian wewenang, dan pendelegasian hukum. Kami membantu agar ruang lingkup kuasa tertulis jelas dan aman.",
+        "title": "Surat Kuasa",
+        "desc": "Penyusunan dan notarisasi surat kuasa untuk keperluan perwakilan hukum, pelimpahan kewenangan, serta urusan pribadi maupun korporasi. Kami memastikan ruang lingkup kuasa dan tanggung jawab dirumuskan secara jelas dan sah secara hukum.",
         "helpsWith": [
-          "Pendampingan pembuatan dan penjelasan ruang lingkup kuasa",
-          "Verifikasi identitas pemberi kuasa",
-          "Proses tanda tangan dan pengesahan notaris"
+          "Penyusunan dan penegasan ruang lingkup kewenangan",
+          "Verifikasi identitas dan kapasitas hukum pemberi kuasa",
+          "Proses penandatanganan dan legalisasi notaris"
         ],
         "commonDocs": [
-          "Surat kuasa perwakilan",
+          "Surat kuasa",
           "Dokumen identitas",
-          "Kesepakatan terkait kuasa"
+          "Dokumen perjanjian atau representasi"
         ],
-        "time": "Estimasi: selesai di hari yang sama (dengan janji)"
+        "time": "Estimasi: selesai di hari yang sama (dengan perjanjian)"
       },
 
       "affidavit": {
-        "title": "Affidavit / Surat Pernyataan Resmi",
-        "desc": "Pembuatan dan pengesahan affidavit atau surat pernyataan untuk kebutuhan hukum dan keperluan resmi. Kami membantu merapikan isi pernyataan agar jelas, tepat, dan sesuai prosedur.",
+        "title": "Akta Pernyataan / Affidavit",
+        "desc": "Penyusunan dan notarisasi pernyataan di bawah sumpah untuk keperluan hukum dan administrasi resmi. Kami memastikan redaksi pernyataan jelas, tepat, serta sesuai dengan ketentuan formal yang berlaku sebelum dilakukan pengesahan.",
         "helpsWith": [
-          "Pemeriksaan isi pernyataan dan kejelasan data",
-          "Pendampingan proses sumpah / pernyataan",
-          "Pengesahan notaris sesuai ketentuan"
+          "Penelaahan dan penyusunan pernyataan di bawah sumpah",
+          "Pendampingan proses pengucapan sumpah dan penandatanganan",
+          "Pengesahan dan validasi resmi oleh notaris"
         ],
         "commonDocs": [
-          "Surat pernyataan",
-          "Deklarasi resmi",
-          "Dokumen pendukung"
+          "Surat pernyataan di bawah sumpah",
+          "Pernyataan resmi",
+          "Dokumen pendukung terkait"
         ],
-        "time": "Estimasi: selesai di hari yang sama (dengan janji)"
+        "time": "Estimasi: selesai di hari yang sama (dengan perjanjian)"
       },
 
-      "copy": {
-        "title": "Salinan Dokumen Tersertifikasi",
-        "desc": "Pengesahan salinan dokumen agar sesuai dengan dokumen asli. Kami melakukan pemeriksaan dan pencocokan dokumen asli dengan salinan secara teliti sebelum memberikan sertifikasi.",
+      "legalEntityEstablishment": {
+        "title": "Pendirian & Pengesahan Badan Hukum",
+        "desc": "Layanan komprehensif untuk pendirian dan pengesahan badan hukum melalui sistem resmi Kementerian Hukum dan Hak Asasi Manusia. Kami membantu penyusunan akta notaris, proses pengajuan pengesahan, hingga penerbitan bukti pendaftaran sesuai dengan peraturan yang berlaku.",
         "helpsWith": [
-          "Pencocokan salinan dengan dokumen asli",
-          "Sertifikasi salinan sesuai prosedur",
-          "Pemberian cap dan tanda tangan resmi"
+          "Pendirian Perseroan Terbatas (PT)",
+          "Pendirian Commanditaire Vennootschap (CV)",
+          "Pendirian Perkumpulan / Lembaga",
+          "Pendirian Yayasan",
+          "Pembuatan dan pendaftaran wasiat",
+          "Pembuatan dan pendaftaran jaminan fidusia"
         ],
         "commonDocs": [
-          "KTP / dokumen identitas",
-          "Sertifikat",
-          "Surat resmi"
+          "Akta pendirian badan hukum",
+          "Anggaran Dasar",
+          "Dokumen identitas para pendiri",
+          "Dokumen pendukung usaha"
         ],
-        "time": "Estimasi: selesai di hari yang sama"
+        "time": "Estimasi waktu tergantung jenis badan hukum dan proses persetujuan kementerian"
+      },
+      "landUsePlanning": {
+        "title": "Perencanaan & Strategi Pemanfaatan Lahan",
+        "desc": "Layanan konsultasi dan pendampingan profesional dalam perencanaan pemanfaatan lahan untuk kegiatan usaha, baik bagi perorangan maupun badan hukum. Kami memberikan arahan strategis berdasarkan pola dan rencana tata ruang yang berlaku, guna memastikan pemanfaatan lahan dilakukan secara legal, terstruktur, dan berkelanjutan.",
+        "helpsWith": [
+          "Pendampingan kesesuaian tata ruang dan regulasi zonasi",
+          "Perencanaan detail usaha berbasis kavling",
+          "Perencanaan pengembangan perumahan untuk badan hukum",
+          "Strategi optimalisasi dan pengembangan lahan",
+          "Penyusunan konsep usaha di bidang real estate"
+        ],
+        "commonDocs": [
+          "Sertifikat hak atas tanah",
+          "Dokumen rencana tata ruang (RTRW / zonasi)",
+          "Dokumen pendirian badan usaha (jika berbentuk badan hukum)",
+          "Rencana awal pengembangan atau proposal usaha"
+        ],
+        "time": "Estimasi waktu menyesuaikan dengan kompleksitas proyek dan kajian regulasi"
       }
     }
   }

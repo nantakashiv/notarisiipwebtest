@@ -144,9 +144,9 @@
     "desc": "Comprehensive notarial services tailored for individuals and businesses.",
     "more": "Learn more services →",
     "items": {
-      "legalization": {
-        "title": "Document Legalization",
-        "description": "Official legalization and apostille where applicable for international documents."
+      "legalizationAndCertifiedCopy": {
+        "title": "Document Legalization & Certified Copies",
+        "description": "Legalization and certification services to ensure documents are officially verified and compliant with the originals."
       },
       "contract": {
         "title": "Contract Notarization",
@@ -164,9 +164,13 @@
         "title": "Affidavits",
         "description": "Sworn statements and affidavits for legal procedures."
       },
-      "copy": {
-        "title": "Certified Copies",
-        "description": "Certified true copies of official documents."
+      "legalEntityEstablishment": {
+        "title": "Legal Entity Establishment & Registration",
+        "description": "Professional assistance in establishing and registering legal entities through the Ministry of Law and Human Rights system."
+      },
+      "landUsePlanning": {
+        "title": "Land Use Planning & Strategic Development",
+        "description": "Advisory services for land utilization planning aligned with spatial regulations for individuals and legal entities."
       }
     }
   },
@@ -232,100 +236,124 @@
     "footerRight": "Details →",
 
     "items": {
-      "legalization": {
-        "title": "Document Legalization",
-        "desc": "We assist clients with document legalization to ensure your documents are properly verified and formally recognized. Our office will guide you through the correct process, required originals, and signing procedures to help avoid delays.",
+      "legalizationAndCertifiedCopy": {
+        "title": "Document Legalization & Certified Copies",
+        "desc": "Document legalization and certification of copies to ensure conformity with the original documents. We verify signatures, review document completeness, and carefully match originals with copies before issuing official certification.",
         "helpsWith": [
           "Verification of signatures and supporting documents",
-          "Guidance on legalization requirements",
-          "Document readiness review before submission"
+          "Matching copies with original documents",
+          "Guidance on legalization requirements and procedures",
+          "Official stamping and signature certification"
         ],
         "commonDocs": [
-          "Personal statements & letters",
-          "Company documents",
-          "Certificates & supporting files"
+          "Statements & personal letters",
+          "Corporate documents",
+          "ID cards / identification documents",
+          "Certificates & official documents"
         ],
-        "time": "Estimated: 1–3 working days"
+        "time": "Estimated time: 1 business day (depending on document type)"
       },
 
       "contract": {
         "title": "Contract Notarization",
-        "desc": "Professional notarization and witnessing for agreements that require clarity, legal certainty, and formal documentation. We ensure both parties understand the document before signing.",
+        "desc": "Comprehensive notarization services for private and commercial agreements to ensure legal certainty, enforceability, and proper formal documentation. We facilitate document review, clarify legal implications, and oversee the signing process to safeguard the interests of all parties involved.",
         "helpsWith": [
-          "Review of agreement details before signing",
-          "Witnessing and signing coordination",
-          "Notarial documentation and verification"
+          "Pre-signing review and clarification of contractual terms",
+          "Coordination of signing sessions and identity verification",
+          "Official notarization and legal documentation validation"
         ],
         "commonDocs": [
-          "Business agreements",
-          "Personal contracts",
-          "Cooperation letters"
+          "Business and commercial agreements",
+          "Partnership and cooperation contracts",
+          "Personal agreements and declarations"
         ],
-        "time": "Estimated: same day (by appointment)"
+        "time": "Estimated: same day service (by appointment)"
       },
 
       "property": {
         "title": "Property Deeds",
-        "desc": "Support for land and property documentation handled with precision and compliance. We assist clients to ensure documents are complete, correct, and aligned with legal requirements.",
+        "desc": "Professional assistance in the preparation and notarization of land and property transfer documents, ensuring compliance with applicable regulations. We support clients through document verification, procedural coordination, and formal execution to ensure a secure and lawful transaction.",
         "helpsWith": [
-          "Deed preparation guidance and requirements",
-          "Ownership and supporting document checks",
-          "Signing coordination and official validation"
+          "Guidance on deed preparation and regulatory requirements",
+          "Verification of land ownership and supporting documents",
+          "Execution and official notarization of property deeds"
         ],
         "commonDocs": [
-          "Land certificates",
-          "Transfer documents",
-          "Supporting identity documents"
+          "Land ownership certificates",
+          "Sale and purchase agreements",
+          "Identification and supporting legal documents"
         ],
-        "time": "Estimated: based on requirements"
+        "time": "Estimated: depending on document completeness and requirements"
       },
 
       "poa": {
         "title": "Power of Attorney (POA)",
-        "desc": "Drafting and notarizing power of attorney documents for representation, authorization, and legal delegation. We help ensure the scope and responsibility are clearly stated.",
+        "desc": "Drafting and notarization of powers of attorney for legal representation, delegation of authority, and corporate or personal matters. We ensure that the scope of authority, limitations, and responsibilities are clearly defined and legally sound.",
         "helpsWith": [
-          "Drafting support and scope clarification",
-          "Identity verification of the authorizing party",
-          "Notarial signing process and legalization"
+          "Drafting and clarification of authority scope",
+          "Verification of identity and legal capacity",
+          "Notarial legalization and formal execution process"
         ],
         "commonDocs": [
           "Authorization letters",
-          "Personal data documents",
-          "Representation agreements"
+          "Identification documents",
+          "Corporate or representation agreements"
         ],
-        "time": "Estimated: same day (by appointment)"
+        "time": "Estimated: same day service (by appointment)"
       },
 
       "affidavit": {
         "title": "Affidavits",
-        "desc": "Affidavit preparation and notarization for sworn statements used for legal matters and official purposes. We guide the wording to ensure clarity and correctness.",
+        "desc": "Preparation and notarization of sworn statements for legal proceedings and official purposes. We ensure clarity, accuracy, and compliance with formal legal standards before endorsement and validation.",
         "helpsWith": [
-          "Statement verification and accuracy check",
-          "Sworn signing process with legal guidance",
-          "Notarial endorsement and formal validation"
+          "Review and structuring of sworn statements",
+          "Legal guidance during oath-taking and signing",
+          "Official notarization and authentication"
         ],
         "commonDocs": [
-          "Sworn statements",
-          "Formal declarations",
-          "Supporting documentation"
+          "Sworn statements and declarations",
+          "Legal confirmations",
+          "Supporting evidence or documentation"
         ],
-        "time": "Estimated: same day (by appointment)"
+        "time": "Estimated: same day service (by appointment)"
       },
 
-      "copy": {
-        "title": "Certified Copies",
-        "desc": "Certification of true copies for official documents. We compare the original document with the copy carefully before providing official certification.",
+      "legalEntityEstablishment": {
+        "title": "Legal Entity Establishment & Registration",
+        "desc": "Comprehensive services for the establishment and legalization of legal entities through the official system of the Ministry of Law and Human Rights. We assist in drafting notarial deeds, obtaining approval, and completing the registration process in accordance with applicable regulations.",
         "helpsWith": [
-          "Comparison with original documents",
-          "Copy certification and verification",
-          "Official stamp and signature"
+          "Incorporation of Limited Liability Companies (PT)",
+          "Establishment of Limited Partnerships (CV)",
+          "Establishment of Associations / Organizations",
+          "Establishment of Foundations",
+          "Drafting and registration of wills",
+          "Fiduciary deed creation and registration"
         ],
         "commonDocs": [
-          "Identity documents",
-          "Certificates",
-          "Official letters"
+          "Deed of establishment",
+          "Articles of Association",
+          "Founders’ identification documents",
+          "Supporting business documents"
         ],
-        "time": "Estimated: same day"
+        "time": "Processing time varies depending on entity type and ministerial approval process"
+      },
+      "landUsePlanning": {
+        "title": "Land Use Planning & Strategic Development Advisory",
+        "desc": "Professional advisory and consultancy services in land utilization planning for business activities, serving both individuals and legal entities. We provide strategic guidance aligned with spatial planning frameworks and zoning regulations to ensure lawful, structured, and sustainable land development.",
+        "helpsWith": [
+          "Assessment of zoning and spatial planning compliance",
+          "Detailed planning for land parcel-based business projects",
+          "Housing development planning for legal entities",
+          "Strategic land optimization and development planning",
+          "Conceptual business planning within the real estate sector"
+        ],
+        "commonDocs": [
+          "Land ownership certificates",
+          "Spatial planning documents (RTRW / zoning references)",
+          "Business entity establishment documents (if applicable)",
+          "Preliminary development plans or business proposals"
+        ],
+        "time": "Processing time varies depending on project complexity and regulatory review"
       }
     }
   }

@@ -37,7 +37,6 @@ export default async function ServicesPage({
                 desc={item.desc}
                 helpsWith={item.helpsWith} // ✅ new
                 commonDocs={item.commonDocs} // ✅ new
-                time={item.time}
                 badgeLabel={m.servicesPage.badgeLabel} // ✅ translate-able
                 helpsTitle={m.servicesPage.helpsTitle} // ✅ translate-able
                 docsTitle={m.servicesPage.docsTitle} // ✅ translate-able
@@ -73,7 +72,6 @@ function ServiceCard({
   desc,
   helpsWith,
   commonDocs,
-  time,
   badgeLabel,
   helpsTitle,
   docsTitle,
@@ -85,7 +83,6 @@ function ServiceCard({
   desc: string;
   helpsWith?: string[];
   commonDocs?: string[];
-  time?: string;
   badgeLabel: string;
   helpsTitle: string;
   docsTitle: string;
@@ -137,7 +134,7 @@ function ServiceCard({
               "
             >
               <Image
-                src={`/icons/services/${id}.png`}
+                src={`/icons/services/${id}2.png`}
                 alt={title}
                 width={28}
                 height={28}
@@ -151,11 +148,7 @@ function ServiceCard({
                 {title}
               </h3>
 
-              {time && (
-                <p className="mt-1 text-xs text-neutral-500 leading-snug">
-                  {time}
-                </p>
-              )}
+            
             </div>
           </div>
 

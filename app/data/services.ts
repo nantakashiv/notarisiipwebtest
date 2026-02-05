@@ -1,10 +1,11 @@
 export const SERVICE_IDS = [
-  "legalization",
+  "legalizationAndCertifiedCopy",
   "contract",
   "property",
   "poa",
   "affidavit",
-  "copy",
+  "legalEntityEstablishment",
+  "landUsePlanning",
 ] as const;
 
 export type ServiceId = (typeof SERVICE_IDS)[number];

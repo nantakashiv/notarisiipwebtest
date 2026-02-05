@@ -50,36 +50,63 @@ export const clientEngagements: ClientEngagement[] = [
   },
 
   {
-    company: "CV Sentosa Mandiri",
-    services: ["Company Establishment", "Articles of Association Drafting"],
-    location: {
-      address: "Bandung, Indonesia",
-      mapUrl: "https://maps.google.com/?q=Bandung",
-    },
-    descriptionId:
-      "Mendukung pendirian badan usaha baru, termasuk penyusunan struktur legal dan peninjauan kepatuhan dokumen.",
-    descriptionEn:
-      "Supporting the establishment of a new business entity, including legal structure arrangement and compliance review.",
-    setPlanId: "Menunggu persetujuan kementerian",
-    setPlanEn: "Pending ministry approval",
-    status: "under_review",
-    image: "/images/engagements/sentosa-mandiri.jpg",
+    company: "PT Sekawan Bayu Perkasa",
+  descriptionId:
+    "Memberikan layanan kenotariatan dan administrasi pertanahan dalam rangka pembebasan lahan seluas ±300.000 hektar di Desa Ketanggungan, Brebes.",
+  descriptionEn:
+    "Providing notarial and land administration services for approximately 300,000 hectares of land acquisition in Ketanggungan Village, Brebes.",
+  services: [
+    "Pembuatan Perjanjian Pengikatan Jual Beli (PPJB)",
+    "Pembuatan Kuasa Untuk Menjual (KUM)",
+    "Pengurusan Sertifikat Hak Milik (SHM)"
+  ],
+  location: {
+    address: "Desa Ketanggungan, Brebes, Jawa Tengah, Indonesia",
+    mapUrl: "https://maps.google.com",
+  },
+  projectSummaryId:
+    "Proyek pembebasan lahan – Desa Ketanggungan, Brebes",
+  projectSummaryEn:
+    "Land acquisition project – Ketanggungan Village, Brebes",
+  projectMetricsId:
+    "Total luas pembebasan lahan ±300.000 hektar",
+  projectMetricsEn:
+    "Total land acquisition area ±300,000 hectares",
+  setPlanId:
+    "Tahap penyelesaian administrasi dan legalisasi dokumen",
+  setPlanEn:
+    "Ongoing administrative and legal documentation process",
+  status: "in_progress",
+  image: "/images/clients/sekawanbayuperkasa.jpg",
+
   },
 
   {
-    company: "PT Harmoni Sejahtera",
-    services: ["Contract Legalization"],
-    location: {
-      address: "Surabaya, Indonesia",
-      mapUrl: "https://maps.google.com/?q=Surabaya",
-    },
-    descriptionId:
-      "Legalisasi perjanjian komersial untuk mendukung operasional bisnis lintas wilayah.",
-    descriptionEn:
-      "Legalization of commercial agreements to support cross-regional business operations.",
-    setPlanId: "Selesai pada Juli 2025",
-    setPlanEn: "Completed in July 2025",
-    status: "completed",
-    image: "/images/engagements/harmoni-sejahtera.jpg",
+    company: "PT Agung Pelita Industirindo",
+  descriptionId:
+    "Memberikan layanan kenotariatan dan administrasi pertanahan dalam rangka perluasan lahan industri alas sepatu di Desa Klampok.",
+  descriptionEn:
+    "Providing notarial and land administration services for the expansion of an industrial footwear manufacturing facility in Klampok Village.",
+  services: [
+    "Pengurusan dan Sertifikasi Hak Guna Bangunan (SHGB)"
+  ],
+  location: {
+    address: "Desa Klampok, Jawa Tengah, Indonesia",
+    mapUrl: "https://maps.google.com",
+  },
+  projectSummaryId:
+    "Proyek perluasan lahan industri alas sepatu – Desa Klampok",
+  projectSummaryEn:
+    "Industrial footwear facility expansion project – Klampok Village",
+  projectMetricsId:
+    "Perluasan lahan untuk pengembangan kawasan industri",
+  projectMetricsEn:
+    "Land expansion for industrial area development",
+  setPlanId:
+    "Tahap proses administrasi dan sertifikasi hak atas tanah",
+  setPlanEn:
+    "Ongoing land rights certification and administrative process",
+  status: "in_progress",
+  image: "/images/clients/agungpelita.jpg",
   },
 ];

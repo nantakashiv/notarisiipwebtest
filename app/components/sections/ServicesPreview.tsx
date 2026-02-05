@@ -77,38 +77,42 @@ export default function ServicesPreview() {
         viewport={{ once: true, margin: "-120px" }}
         className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6"
       >
-        {previewServices.map((s) => (
-          <motion.article
-            key={s.id}
-            variants={card}
-            whileHover={{ y: -4 }}
-            whileTap={{ scale: 0.99 }}
-            className="bg-white p-6 rounded-2xl shadow hover:shadow-md transition"
-          >
-            {/* ✅ ICON BOX (same size, now PNG) */}
-            <motion.div
-              whileHover={{ scale: 1.05 }}
-              transition={{ duration: 0.25, ease: "easeOut" }}
-              className="w-14 h-14 bg-gray-100 rounded-lg mb-4 flex items-center justify-center"
+        {previewServices.map((s) => {
+          const item = m.servicesPreview.items[s.id];
+
+          return (
+            <motion.article
+              key={s.id}
+              variants={card}
+              whileHover={{ y: -4 }}
+              whileTap={{ scale: 0.99 }}
+              className="bg-white p-6 rounded-2xl shadow hover:shadow-md transition"
             >
-              <Image
-                src={`/icons/services/${s.id}.png`}
-                alt={m.servicesPreview.items[s.id].title}
-                width={28}
-                height={28}
-                className="w-full h-full object-cover"
-              />
-            </motion.div>
+              {/* ICON */}
+              <motion.div
+                whileHover={{ scale: 1.05 }}
+                transition={{ duration: 0.25, ease: "easeOut" }}
+                className="w-14 h-14 bg-gray-100 rounded-lg mb-4 flex items-center justify-center"
+              >
+                <Image
+                  src={`/icons/services/${s.id}2.png`}
+                  alt={item.title}
+                  width={28}
+                  height={28}
+                  className="w-full h-full object-cover"
+                />
+              </motion.div>
 
-            <h3 className="font-semibold mb-2">
-              {m.servicesPreview.items[s.id].title}
-            </h3>
+              <h3 className="font-semibold mb-2">
+                {item.title}
+              </h3>
 
-            <p className="text-gray-600 text-sm">
-              {m.servicesPreview.items[s.id].description}
-            </p>
-          </motion.article>
-        ))}
+              <p className="text-gray-600 text-sm">
+                {item.description}
+              </p>
+            </motion.article>
+          );
+        })}
       </motion.div>
 
       {/* FOOTER LINK */}
